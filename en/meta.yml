@@ -1,17 +1,24 @@
-title: tech-toys
+---
 hero_image: images/banner.png
-description: tech-toys description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 1 # possible values: 1, 2 or 3
+theme: red
+duration: 1
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, robots, jokes/pranks, space, photography, music/sound, physical computing"
-technologies: "html/css, scratch, electronics, physical computing, python"
-site_areas:
+title: Tech Toys
+description: Learn how to code your own tech toys!
+original_url: https://codeclubprojects.org/en-GB/scratch/tech-toys
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Step title
+- title: Introduction
+- title: Spinning Bow Tie
+- title: 'Challenge: Colour-changing sunglasses'
+- title: Powering up your helicopter
+- title: Flying your helicopter
+- title: 'Challenge: More controls'
+- title: Loop-the-loop
+- title: 'Challenge: Create your own tech toy!'
+

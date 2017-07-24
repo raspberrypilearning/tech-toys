@@ -15,7 +15,7 @@ In this project you'll learn how to code your own tech toys!
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/tech-toys/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print).
 
 
 --- collapse ---

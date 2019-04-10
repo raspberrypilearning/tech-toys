@@ -19,7 +19,7 @@ In the starter project, you should see 2 characters, a laptop and a helicopter.
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Click on the ‘Bow Tie’ sprite and add this code:
 
 ![bowtie sprite](images/bowtie-sprite.png)
 
@@ -29,6 +29,15 @@ repeat (10)
 turn cw (15) degrees
 end
 ```
+
+--- /task ---
+
+
+--- task ---
+
+Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+
+![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
 
 --- /task ---
 

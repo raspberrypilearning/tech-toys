@@ -8,7 +8,7 @@ We want the helicopter to do a 360 degree spin whenever the space key is pressed
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when [space v] key pressed
 repeat (360)
 turn ccw (1) degrees
@@ -29,7 +29,7 @@ To speed up your helicopter's spin, change the numbers in your code so that it t
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when [space v] key pressed
 +repeat (45)
 +turn ccw (8) degrees
@@ -40,9 +40,9 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="blockmotion"} block to your code.
+If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
 
-```blocks
+```blocks3
 when [space v] key pressed
 repeat (45)
 + move (5) steps
@@ -54,7 +54,7 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="blockmotion"} block?
+Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
 
 ![helicopter looping](images/toys-helicopter-360-move-test.png)
 

@@ -23,7 +23,7 @@ Click on the ‘Bow Tie’ sprite and add this code:
 
 ![bowtie sprite](images/bowtie-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 repeat (10)
 turn cw (15) degrees
@@ -43,9 +43,9 @@ Click the bow tie to run your code. You should see that your bow tie turns 15 de
 
 --- task ---
 
-Find the `point in direction`{:class="blockmotion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
 
-```blocks
+```blocks3
 point in direction (90 v)
 ```
 
@@ -59,7 +59,7 @@ To make the bow tie do 1 complete spin, the numbers in your code need to add up 
 
 ![bowtie sprite](images/bowtie-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
 repeat (10)
 +turn cw (36) degrees
@@ -74,9 +74,9 @@ Test your code again. This time, your bow tie should do 1 complete 360 degree sp
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="blockcontrol"} block from `10` to `40`.
+If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
 
-```blocks
+```blocks3
 when this sprite clicked
 +repeat (40)
 turn cw (36) degrees

@@ -3,7 +3,7 @@ Can you use the following blocks to make your sunglasses change colour when clic
 
 ![sunglasses sprite](images/sunglasses-sprite.png)
 
-```blocks
+```blocks3
 repeat (10
 end
 

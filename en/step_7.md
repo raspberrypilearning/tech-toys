@@ -5,8 +5,8 @@ You could make the antennae move whenever they're clicked? Here's the code block
 
 ![antennae sprite](images/antennae-sprite.png)
 
-```blocks
-wait (0.1) secs
+```blocks3
+wait (0.1) seconds
 
 turn cw (15) degrees
 
@@ -15,11 +15,11 @@ end
 
 when this sprite clicked
 
-wait (0.1) secs
+wait (0.1) seconds
 
 turn ccw (15) degrees
 ```
 
 You could make any tech toy you like. Here are some other sprites you could use:
 
-![magic carpet, beachball, spaceship, robot sprites](images/toys-sprites.png)
+![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)

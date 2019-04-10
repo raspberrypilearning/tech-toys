@@ -4,14 +4,14 @@ Let's code your helicopter to start up when your laptop is clicked.
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="blockevents"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
 
 ![laptop sprite](images/laptop-sprite.png)
 
-```blocks
+```blocks3
 when this sprite clicked
-play sound [computer beeps1]
-broadcast [start v]
+start sound (computer beeps1)
+broadcast (start v)
 ```
 
 This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
@@ -20,11 +20,11 @@ This code broadcasts a message to all other sprites. If you test this code, you'
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="blockevents"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 ```
 
@@ -44,7 +44,7 @@ You can use the 2 costumes to animate the helicopter. Add this code, so that the
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 +forever
 next costume

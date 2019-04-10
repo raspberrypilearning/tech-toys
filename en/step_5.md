@@ -8,7 +8,7 @@ Let's start by coding your helicopter to move up when the up arrow is pressed.
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when [up arrow v] key pressed
 change y by (5)
 ```
@@ -17,17 +17,17 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="blockmotion"} position (up/down) changes whenever the up arrow is pressed.
+Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="blockmotion"} loop.
+To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 forever
 next costume
@@ -44,11 +44,11 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="blockmotion"} postition by `-5`.
+You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 forever
 next costume
@@ -71,7 +71,7 @@ Now code your helicopter to respond to the down and right arrow keys.
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="blocksensing"} used and `x`{:class="blockmotion"} & `y`{:class="blockmotion"} values
+Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
 
 --- /hint ---
 
@@ -81,7 +81,7 @@ You will need these blocks:
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 if <> then
 
 end
@@ -101,7 +101,7 @@ Your code should look like this:
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 forever
 next costume

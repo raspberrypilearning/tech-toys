@@ -2,33 +2,61 @@
 
 Let's code your helicopter to start up when your laptop is clicked.
 
+--- task ---
 
+Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
 
-+ Let's start by broadcasting a `start`{:class="blockevents"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+![laptop sprite](images/laptop-sprite.png)
 
-	![screenshot](images/toys-laptop-1.png)
+```blocks3
+when this sprite clicked
+start sound (computer beeps1)
+broadcast (start v)
+```
 
-+ Your code should look like this:  
+This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
 
-	![screenshot](images/toys-laptop.png)
+--- /task ---
 
-	This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+--- task ---
 
-+ Click on your helicopter sprite and add a `When I receive`{:class="blockevents"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
 
-	![screenshot](images/toys-helicopter-receive.png)
+![helicopter sprite](images/helicopter-sprite.png)
 
-+ If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+```blocks3
+when I receive [start v]
+```
 
-	![screenshot](images/toys-helicopter-costumes.png)
+--- /task ---
 
-+ You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+--- task ---
 
-	![screenshot](images/toys-helicopter-animation.png)
+If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
 
-+ Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+![helicopter costumes](images/toys-helicopter-costumes.png)
 
-	![screenshot](images/toys-helicopter-animation-test.png)
+--- /task ---
 
+--- task ---
 
+You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
 
+![helicopter sprite](images/helicopter-sprite.png)
+
+```blocks3
+when I receive [start v]
++forever
+next costume
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+
+![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+
+--- /task ---

@@ -51,7 +51,9 @@ The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target
 title: What you will learn
 ---
 
-- How to create a Scratch project
+- How to animate sprites
+- How to respond to keyboard input
+- Understand how broadcast works
 
 --- /collapse ---
 

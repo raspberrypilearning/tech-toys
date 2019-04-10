@@ -23,7 +23,7 @@ Test your code and you'll see that your helicopter's `y`{:class="blockmotion"} p
 
 --- task ---
 
-If you want your helicopter to move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="blockmotion"} loop.
+To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="blockmotion"} loop.
 
 ![helicopter sprite](images/helicopter-sprite.png)
 
@@ -35,6 +35,7 @@ next costume
 change y by (5)
 end
 end
+
 -when [up arrow v] key pressed
 -change y by (5)
 ```

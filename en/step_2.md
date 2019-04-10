@@ -13,7 +13,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see 2 characters, a laptop and a helicopter.
 
-![starter projects](images/starter_project.png)
+![starter projects](images/toys-starter.png)
 
 --- /task ---
 

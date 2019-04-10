@@ -10,7 +10,7 @@ Let's start by broadcasting a `start`{:class="block3events"} message when the la
 
 ```blocks3
 when this sprite clicked
-start sound (computer beeps1)
+start sound (computer beeps1 v)
 broadcast (start v)
 ```
 

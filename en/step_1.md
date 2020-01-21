@@ -32,7 +32,6 @@ In this project you'll learn how to code your own tech toys!
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -52,7 +51,6 @@ The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---

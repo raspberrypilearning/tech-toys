@@ -3,6 +3,7 @@
 Let's code a bow tie that spins when clicked.
 
 --- task ---
+
 Open the Scratch starter project.
 
 **Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.

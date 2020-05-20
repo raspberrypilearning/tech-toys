@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-Take a look at the [Snowball fight](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch project.
+Bekijk het [Sneeuwballengevecht](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch-project.
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+Gebruik de muisaanwijzer om de sneeuwbal te richten en houd de muisknop ingedrukt om de kracht van de sneeuwbal te kiezen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![voltooid project](images/snow-final.png)
 
 --- /print-only ---

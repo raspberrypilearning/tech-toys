@@ -1,10 +1,10 @@
-## Powering up your helicopter
+## Je helikopter inschakelen
 
-Let's code your helicopter to start up when your laptop is clicked.
+Laten we je helikopter coderen om op te starten wanneer op je laptop wordt geklikt.
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+Laten we beginnen met het uitzenden van een `start`{:class="block3events"}-bericht wanneer op de laptop wordt geklikt. Je moet een `nieuw bericht` maken genaamd `start`.
 
 ![laptop sprite](images/laptop-sprite.png)
 
@@ -14,15 +14,15 @@ start sound (computer beeps1 v)
 broadcast (start v)
 ```
 
-This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+Deze code zendt een bericht naar alle andere sprites. Als je deze code test, zul je zien dat er nog niets gebeurt! Dit komt omdat je de helikopter niet hebt gecodeerd om op het bericht te reageren.
 
 --- /task ---
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+Klik op de helikoptersprite en voeg een `Wanneer ik signaal ontvang`{:class="block3events"}-blok toe. Alle code die aan dit blok is gekoppeld, wordt uitgevoerd wanneer het het 'start'-bericht van de laptop ontvangt.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -32,17 +32,17 @@ when I receive [start v]
 
 --- task ---
 
-If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+Als je op het tabblad 'Uiterlijken' van de helikopter klikt, zul je zien dat het 2 uiterlijken heeft met iets andere propellers.
 
-![helicopter costumes](images/toys-helicopter-costumes.png)
+![helikopter uiterlijken](images/toys-helicopter-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+Je kunt de 2 uiterlijken gebruiken om de helikopter te animeren. Voeg deze code toe, zodat de helikopter voor altijd van uiterlijk verandert zodra het het 'start'-bericht ontvangt.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,8 +55,8 @@ end
 
 --- task ---
 
-Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+Test je code door op je laptopsprite te klikken. Animeert de propeller van je helikopter?
 
-![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+![helikopterbladen bewegen](images/toys-helicopter-animation-test.png)
 
 --- /task ---

@@ -1,7 +1,7 @@
-## Challenge: Colour-changing sunglasses
-Can you use the following blocks to make your sunglasses change colour when clicked?
+## التحدي: نظارات الشمس متغيرة الألوان
+هل يمكنك استخدام التعليمة البرمجية التالية لجعل نظاراتك الشمسية تغير اللون عند النقر عليها؟
 
-![sunglasses sprite](images/sunglasses-sprite.png)
+![كائن النظارات الشمسية](images/sunglasses-sprite.png)
 
 ```blocks3
 repeat (10
@@ -12,4 +12,4 @@ change [colour v] effect by (25)
 when this sprite clicked
 ```
 
-Remember that you can change the numbers in the code blocks if you want to!
+تذكر أنه يمكنك تغيير الأرقام في التعليمات البرمجية إذا كنت تريد ذلك!

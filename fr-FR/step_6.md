@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Faire un looping
 
-Let's code your helicopter to do a 360 degree spin.
+Codons ton hélicoptère pour qu'il fasse une rotation de 360 degrés.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Nous voulons que l’hélicoptère effectue une rotation de 360 degrés chaque fois que l'on appuie sur la touche espace. Rappelle-toi que les chiffres dans ton code doivent totaliser 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Teste ton code en appuyant sur l'espace, et tu verras que ton hélicoptère tourne très lentement. C'est parce qu'il ne tourne que de 1 degré 360 fois.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Pour accélérer la rotation de ton hélicoptère, modifie les chiffres dans ton code pour qu'il tourne plus de degrés moins de fois. Peu importe les nombres que tu choisis tant qu'ils totalisent 360 !
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Si tu veux que ton hélicoptère se déplace aussi bien qu'il tourne, il suffit d'ajouter un bloc `avancer`{:class="block3motion"} à ton code.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Appuie à nouveau sur espace pour tester ton code. Tu devrais voir ton hélicoptère se déplacer en cercle. Que se passe-t-il si tu changes le nombre dans ton bloc `avancer`{:class="block3motion"} ?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![looping hélicoptère](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

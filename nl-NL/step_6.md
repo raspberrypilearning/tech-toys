@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Loopings
 
-Let's code your helicopter to do a 360 degree spin.
+Laten we je helikopter coderen om een draai van 360 graden te maken.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+We willen dat de helikopter 360 graden draait wanneer de spatietoets wordt ingedrukt. Onthoud dat de getallen in je code tot 360 moeten optellen.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Test je code door op de spatiebalk te drukken en je zult zien dat je helikopter heel langzaam draait. Dat komt doordat het 360 keer maar 1 graad verandert.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Om de draai van je helikopter te versnellen, verander je de getallen in je code zodat deze minder vaak meer graden draait. Het maakt niet uit welke getallen je kiest, zolang ze maar optellen tot 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Als je wilt dat je helikopter zowel beweegt als draait, voeg je gewoon een `neem stappen`{:class="block3motion"}-blok toe aan je code.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Druk nogmaals op de spatiebalk om je code te testen. Je zou je helikopter in een cirkel moeten zien bewegen. Wat gebeurt er als je het getal in je `neem stappen`{:class="block3motion"}-blok verandert?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![helikopter in een looping](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

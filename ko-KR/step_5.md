@@ -1,12 +1,12 @@
-## Flying your helicopter
+## 헬리콥터 날리기
 
-Let's use the arrow keys to fly your helicopter.
+화살표를 눌러 헬리콥터를 비행시켜봅시다.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+먼저 위쪽 화살표를 누르면 위로 이동하도록 헬리콥터를 코딩하는 것으로 시작하겠습니다.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+코드를 테스트하면 위쪽 화살표를 누를 때마다 헬리콥터의 `y`{:class="block3motion"} 좌표(위/아래)가 변경되는 것을 볼 수 있습니다.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+헬리콥터가 더 부드럽게 움직이도록 하려면 `무한 반복하기`{:class="block3motion"} 반복문 안에 코드를 추가하여 헬리콥터가 위로 이동할 수 있습니다.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+왼쪽 화살표를 누르면 왼쪽으로 이동하도록 헬리콥터에 코딩할 수도 있습니다. 이번에는 헬리콥터의 `x`{:class="block3motion"} 좌표를 `5`만큼 변경해야 합니다.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+이제 아래쪽 방향키와 오른쪽 방향키에도 응답하도록 헬리콥터를 코딩합니다.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+헬리콥터를 위쪽과 왼쪽으로 움직이게 했던 코드를 복사하여 `방향키`{:class="block3sensing"}와 `x`{:class="block3motion"}&`y`{:class="block3motion"}의 값을 변경해줍니다.
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+이 블럭들이 필요할겁니다.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+다음과 같은 코드가 될 것입니다:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

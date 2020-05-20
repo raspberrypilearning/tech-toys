@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Met je helikopter vliegen
 
-Let's use the arrow keys to fly your helicopter.
+Laten we de pijltjestoetsen gebruiken om met je helikopter te vliegen.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Laten we beginnen met het coderen van je helikopter om omhoog te bewegen wanneer de pijl omhoog-toets wordt ingedrukt.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Test je code en je zult zien dat je `y`{:class="block3motion"} positie (omhoog / omlaag) van de helikopter verandert wanneer de pijl omhoog-toets wordt ingedrukt.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Om je helikopter soepeler te laten bewegen, kun je in plaats daarvan code toevoegen om omhoog te gaan binnen de `herhaal`{:class="block3motion"}-lus van de helikopter.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Je kunt ook je helikopter coderen om naar links te gaan wanneer de pijl naar links wordt ingedrukt. Deze keer moet je de `x`{:class="block3motion"} positie van de helikopter wijzigen met `-5`.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Codeer nu je helikopter om te reageren op de pijl omlaag- en pijl rechts-toetsen.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Kopieer de code die je hebt gebruikt om de helikopter naar boven en naar links te laten bewegen, door de `toetsen`{:class="block3sensing"} en `x`{:class="block3motion"} & `y`{:class="block3motion"} waarden te wijzigen
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Je hebt deze blokken nodig:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![helikopter sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

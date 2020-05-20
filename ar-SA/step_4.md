@@ -1,12 +1,12 @@
-## Powering up your helicopter
+## تشغيل طائرتك العمودية
 
-Let's code your helicopter to start up when your laptop is clicked.
+دعونا نبرمج طائرتك العامودية لتبدأ العمل عند النقر على حاسوبك المحمول.
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+لنبدأ ببث رسالة `بدء`{:class="block3events"} عند النقر على حاسوبك المحمول. ستحتاج إلى إنشاء `رسالة جديدة` تسمى `ابدأ`.
 
-![laptop sprite](images/laptop-sprite.png)
+![كائن الحاسوب المحمول](images/laptop-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -14,15 +14,15 @@ start sound (computer beeps1 v)
 broadcast (start v)
 ```
 
-This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+هذه التعليمة البرمجية تبث رسالة إلى جميع الكائنات الأخرى. إذا قمت باختبار هذه التعليمة البرمجية، سترى أنه لا شيء يحدث بعد! هذا لأنك لم تقم ببرمجة الطائرة العمودية للرد على الرسالة.
 
 --- /task ---
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+انقر على كائن الطائرة العمودية الخاصة بك وقم باضافة الكتلة ` عندما اتلقى`{:class="block3events"}. سيتم تنفيذ أي تعليمة برمجية مرتبط بهذه التعليمة عندما تتلقى رسالة 'ابدأ' من حاسبوك المحمول.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -32,17 +32,17 @@ when I receive [start v]
 
 --- task ---
 
-If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+إذا قمت بالضغط على علامة التبويب 'المظاهر ' الخاصة بالطائرة العامودية الخاصة بك، ستلاحظ أن لديها اثنين من المظاهر مع وجود اختلاف قليل بالمراوح.
 
-![helicopter costumes](images/toys-helicopter-costumes.png)
+![مظاهر الطائرة العمودية](images/toys-helicopter-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+يمكنك استخدام المظهرين لتحريك المروحية. أضف هذه التعليمة البرمجية، بحيث تغير المروحية المظاهر إلى الأبد بمجرد تلقيها الرسالة 'ابدأ'.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,8 +55,8 @@ end
 
 --- task ---
 
-Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+اختبر التعليمات البرمجية الخاصة بك بالضغط على كائن الحاسوب المحمول الخاص بك. هل تتحرك مروحية الطائرة العامودية الخاصة بك؟
 
-![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+![الطائرة العامودية تتحرك](images/toys-helicopter-animation-test.png)
 
 --- /task ---

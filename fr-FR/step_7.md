@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## Défi : créer ton propre jouet technologique !
+Peux-tu créer ton propre jouet technologique ?
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+Tu pourrais faire bouger l'antenne à chaque fois qu'elle est cliquée ? Voici les blocs de code dont tu as besoin :
 
-![antennae sprite](images/antennae-sprite.png)
+![sprite d'antenne](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds
@@ -20,6 +20,6 @@ wait (0.1) seconds
 turn ccw (15) degrees
 ```
 
-You could make any tech toy you like. Here are some other sprites you could use:
+Tu pourrais faire n'importe quel jouet technologique que tu aimes. Voici quelques autres sprites que tu pourrais utiliser :
 
-![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)
+![sprites de robot, fusée, moto, guitare électrique](images/toys-sprites.png)

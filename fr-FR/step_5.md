@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Faire voler ton hélicoptère
 
-Let's use the arrow keys to fly your helicopter.
+Utilise les touches fléchées pour piloter ton hélicoptère.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Commençons par coder ton hélicoptère pour qu'il monte lorsque la flèche vers le haut est enfoncée.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Teste ton code et tu verras que la position `y`{:class="block3motion"} (haut/bas) de ton hélicoptère change quand la flèche vers le haut est enfoncée.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Pour que ton hélicoptère se déplace plus doucement, tu peux à la place ajouter du code pour monter vers le haut à l'intérieur de la boucle `répéter indéfiniment` de ton hélicoptère{:class="block3motion"}.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Tu peux aussi programmer ton hélicoptère pour se déplacer vers la gauche lorsque la flèche gauche est enfoncée. Cette fois, tu devras changer la position `x`{:class="block3motion"} de l'hélicoptère par `-5`.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Maintenant, code ton hélicoptère pour qu'il réponde aux touches fléchées droite et bas.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Copie le code que tu as utilisé pour faire avancer l'hélicoptère vers le haut et vers la gauche, en changeant les `touches`{:class="block3sensing"} utilisées et les valeurs `x`{:class="block3motion"} & `y`{:class="block3motion"}
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Tu auras besoin de ces blocs :
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite d'hélicoptère](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

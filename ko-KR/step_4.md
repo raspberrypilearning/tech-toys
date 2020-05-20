@@ -11,7 +11,7 @@
 ```blocks3
 when this sprite clicked
 start sound (computer beeps1 v)
-broadcast (start v)
+broadcast (시작 v)
 ```
 
 이 코드는 다른 모든 스프라이트에 메시지를 방송합니다. 이 코드를 테스트해 보면 아직 아무 일도 일어나지 않는다는 것을 알 수 있을 거예요! 왜냐하면 이 메시지에 응답하도록 헬리콥터를 아직 코딩하지 않았기 때문입니다.
@@ -25,7 +25,7 @@ broadcast (start v)
 ![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 ```
 
 --- /task ---
@@ -45,7 +45,7 @@ when I receive [start v]
 ![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 +forever
 next costume
 end

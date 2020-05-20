@@ -28,7 +28,7 @@ change y by (5)
 ![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 forever
 next costume
 + if <key [up arrow v] pressed ?> then
@@ -49,7 +49,7 @@ end
 ![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 forever
 next costume
 if <key [up arrow v] pressed ?> then
@@ -103,7 +103,7 @@ change x by (5)
 ![헬리콥터 스프라이트](images/helicopter-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 forever
 next costume
 if <key [up arrow v] pressed ?> then

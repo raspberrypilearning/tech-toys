@@ -1,12 +1,12 @@
-## Flying your helicopter
+## تحليق طائرتك العمودية
 
-Let's use the arrow keys to fly your helicopter.
+دعونا نستخدم مفاتيح الأسهم لطيران طائرتك العمودية.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+دعونا نبدأ ببرمجة مروحيتك للتحرك للأعلى عندما يتم الضغط على السهم لأعلى.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+اختبر التعليمات البرمجية الخاصة بك وسترى أن الموقع `ص`{:class="block3motion"} (للاعلى/للاسفل) للطائرة العمودية يتغير كلما تم الضغط على السهم الأعلى.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+لجعل مروحيتك تتحرك بسلاسة، يمكنك بدلاً من ذلك إضافة تعليمة برمجية للتحرك إلى الأعلى داخل تعليمة الطائرة `للأبد`{:class="block3motion"}.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+يمكنك أيضا برمجة الطائرة للتحرك إلى اليسار عند الضغط على السهم الأيسر. هذه المرة ستحتاج إلى تغيير موقع الطائرة العمودية `س`{:class="block3motion"} بمقدار `-5`.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+الآن برمج طائرتك للاستجابة الى مفاتيح الأسهم للأسفل واليمين.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+انسخ التعليمات البرمجية التي استخدمتها لجعل الطائرة العمودية تتحرك للأعلى والأيسر، وتغيير قيم `المفاتيح `{:class="block3sensing"} المستخدمة و موقعي `س`{:class="block3motion"} و `ص`{:class="block3motion"}
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+ستحتاج إلى هذه التعليمة البرمجية:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

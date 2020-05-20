@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## التحدي: أنشئ لعبة تقنية خاصة بك!
+هل يمكنك إنشاء لعبة تقنية خاصة بك؟
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+يمكنك تحريك الهوائي كلما تم النقر عليهم؟ هنا التعليمات البرمجية التي ستحتاج اليها:
 
-![antennae sprite](images/antennae-sprite.png)
+![كائن الشبكة (الهوائي)](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds
@@ -20,6 +20,6 @@ wait (0.1) seconds
 turn ccw (15) degrees
 ```
 
-You could make any tech toy you like. Here are some other sprites you could use:
+يمكنك صنع أي لعبة تقنية تحبها. فيما يلي بعض الكائنات الأخرى التي يمكنك استخدامها:
 
-![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)
+![إنسان آلي، الصاروخ، الدراجة النارية، كائنات الجيتار الكهربائية](images/toys-sprites.png)

@@ -1,12 +1,12 @@
-## Loop-the-loop
+## تكرار الحلقة البرمجية
 
-Let's code your helicopter to do a 360 degree spin.
+دعونا نبرمج طائرتك للقيام بدورة 360 درجة.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+نريد أن تقوم الطائرة العمودية بدورة 360 درجة كلما تم الضغط على مفتاح المسافة في لوحة المفاتيح. تذكر أن الأرقام في التعليمات البرمجية الخاصة بك تحتاج إلى إضافة ما يصل إلى 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+اختبر تعليماتك البرمجية بالضغط على مفتاح المسافة في لوحة المفاتيح، وسترى أن مروحيتك تدور ببطء شديد. وذلك لأنه يدور بدرجة واحدة 360 مرة.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+لتسريع دورة الطائرة الخاصة بك، قم بتغيير الأرقام في التعليمات البرمجية الخاصة بك بحيث تتحول إلى درجات أكثر بتكرار أقل. لا يهم الأرقام التي تختارها طالما أنها تضيف ما يصل إلى 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![كائن الطائرة العامودية](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+إذا كنت تريد أن تتحرك طائرتك وتدور كذلك، فقم بإضافة تعليمة برمجية` تحرك`{:class="block3motion"} إلى التعليمة البرمجية الخاص بك.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+اضغط على مفتاح المسافة في لوحة المفاتيح مرة أخرى لاختبار التعليمة البرمجية الخاص بك. يجب أن ترى مروحيتك تتحرك في دائرة. ماذا يحدث إذا قمت بتغيير الرقم في التعليمة البرمجية `تحرك `{:class="block3motion"} الخاصة بك؟
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![دوران الطائرة العامودية](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

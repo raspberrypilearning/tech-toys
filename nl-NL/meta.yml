@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Tech Toys
-description: Learn how to code your own tech toys!
+title: Tech speelgoed
+description: Leer hoe je je eigen tech speelgoed kunt coderen!
 version: 4
 last_tested: 2019-04-10
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Spinning Bow Tie
+    title: Draaiende vlinderdas
   - 
-    title: 'Challenge: Colour-changing sunglasses'
+    title: 'Uitdaging: van kleur veranderende zonnebril'
     challenge: true
   - 
-    title: Powering up your helicopter
+    title: Je helikopter inschakelen
   - 
-    title: Flying your helicopter
+    title: Met je helikopter vliegen
   - 
-    title: Loop-the-loop
+    title: Loopings
   - 
-    title: 'Challenge: Create your own tech toy!'
+    title: 'Uitdaging: maak je eigen tech speelgoed!'
     challenge: true
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?

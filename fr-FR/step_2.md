@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Nœud papillon tournant
 
-Let's code a bow tie that spins when clicked.
+Codons un nœud papillon qui tourne quand on clique dessus.
 
 --- task ---
 
-Open the Scratch starter project.
+Ouvre le projet de démarrage Scratch.
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**En ligne** : ouvre le [projet de démarrage](http://rpf.io/tech-toys-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Hors-ligne**: ouvre le [projet de démarrage](http://rpf.io/p/en/tech-toys-go){:target="_blank"} dans l'éditeur hors-ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si tu dois télécharger et installer l'éditeur hors-ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+Dans le projet de démarrage, tu devrais voir 2 personnages, un ordinateur portable et un hélicoptère.
 
-![starter projects](images/toys-starter.png)
+![projets de démarrage](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Clique sur le sprite « Noeud papillon » et ajoute ce code :
 
-![bowtie sprite](images/bowtie-sprite.png)
+![sprite nœud papillon](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Clique sur le nœud papillon pour exécuter ton code. Tu devrais voir que ton nœud papillon tourne de 15 degrés dans le sens des aiguilles d'une montre 10 fois, tournant de 150 degrés au total.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![nœud papillon tournant de 150 degrés](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Trouve le bloc `s'orienter à`{:class="block3motion"} et, _sans le glisser_, clique dessus pour replacer le nœud papillon à sa position de départ.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Astuce : Dans Scratch, tu peux cliquer sur un bloc pour l'exécuter immédiatement. Tu n'as même pas besoin de le faire glisser en premier dans la zone de script !
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Pour que le nœud papillon fasse 1 tour complet, les chiffres de ton code doivent totaliser 360 degrés. Change ton code pour que le nœud papillon tourne de `36` degrés 10 fois (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![sprite nœud papillon](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Teste ton code à nouveau. Cette fois, ton nœud papillon devrait faire 1 tour complet à 360 degrés et finir là où il a commencé.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Si tu veux que ton nœud papillon fasse 4 tours complets, tu peux changer le nombre dans le bloc `répéter`{:class="block3control"} de `10` à `40` .
 
 ```blocks3
 when this sprite clicked

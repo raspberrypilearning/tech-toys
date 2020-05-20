@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Draaiende vlinderdas
 
-Let's code a bow tie that spins when clicked.
+Laten we een vlinderdas coderen die draait wanneer erop wordt geklikt.
 
 --- task ---
 
-Open the Scratch starter project.
+Open het Scratch startproject.
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: open het [startproject](http://rpf.io/tech-toys-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kun je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+In het startproject zou je 2 karakters, een laptop en een helikopter moeten zien.
 
-![starter projects](images/toys-starter.png)
+![startprojecten](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Klik op de 'Vlinderdas'-sprite en voeg deze code toe:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![vlinderdassprite](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Klik op de vlinderdas om je code uit te voeren. Je zou moeten zien dat je vlinderdas 10 keer 15 graden met de klok mee draait, in totaal 150 graden.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![vlinderdas die 150 graden draait](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Vind het `richt naar`{:class="block3motion"}-blok en, _zonder het te slepen_, klik op het blok om de vlinderdas terug te zetten naar de beginpositie.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Tip: In Scratch kun je op een blok klikken om het meteen uit te voeren. Je hoeft het niet eens eerst naar het scriptgebied te slepen!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Om de vlinderdas 1 volledige draai te laten maken, moeten de getallen in je code tot 360 graden optellen. Wijzig je code zodat de vlinderdas 10 keer `36` graden draait (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![vlinderdassprite](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Test je code opnieuw. Deze keer zou je vlinderdas 1 keer de volledige 360 graden moeten draaien en eindigen waar hij begon.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Als je wilt dat je vlinderdas 4 keer volledig ronddraait, kun je het getal in het `herhaal`{:class="block3control"}-blok veranderen van `10` naar `40`.
 
 ```blocks3
 when this sprite clicked

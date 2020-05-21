@@ -1,7 +1,7 @@
-## Challenge: Colour-changing sunglasses
-Can you use the following blocks to make your sunglasses change colour when clicked?
+## Πρόκληση: Γυαλιά ηλίου που αλλάζουν χρώμα
+Μπορείς να χρησιμοποιήσεις τα παρακάτω μπλοκ για να κάνεις τα γυαλιά ηλίου σου να αλλάξουν χρώμα όταν κάνεις κλικ;
 
-![sunglasses sprite](images/sunglasses-sprite.png)
+![αντικείμενο γυαλιά ηλίου](images/sunglasses-sprite.png)
 
 ```blocks3
 repeat (10
@@ -12,4 +12,4 @@ change [colour v] effect by (25)
 when this sprite clicked
 ```
 
-Remember that you can change the numbers in the code blocks if you want to!
+Θυμήσου ότι μπορείς να αλλάξεις τους αριθμούς στα μπλοκ κώδικα αν θέλεις!

@@ -1,4 +1,4 @@
-## Loop-the-loop
+## Πλήρης περιστροφή
 
 Let's code your helicopter to do a 360 degree spin.
 

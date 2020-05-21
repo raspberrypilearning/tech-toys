@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Tech Toys
-description: Learn how to code your own tech toys!
+title: Παιχνίδια τεχνολογίας
+description: Μάθε πώς να γράφεις κώδικα για τα δικά σου παιχνίδια τεχνολογίας!
 version: 4
 last_tested: 2019-04-10
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Spinning Bow Tie
+    title: Περιστροφή του παπιγιόν
   - 
-    title: 'Challenge: Colour-changing sunglasses'
+    title: 'Πρόκληση: Γυαλιά ηλίου που αλλάζουν χρώμα'
     challenge: true
   - 
-    title: Powering up your helicopter
+    title: Ενεργοποίηση του ελικοπτέρου σου
   - 
-    title: Flying your helicopter
+    title: Πέταξε το ελικόπτερό σου
   - 
-    title: Loop-the-loop
+    title: Πλήρης περιστροφή
   - 
-    title: 'Challenge: Create your own tech toy!'
+    title: 'Πρόκληση: Δημιούργησε το δικό σου παιχνίδι τεχνολογίας!'
     challenge: true
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;

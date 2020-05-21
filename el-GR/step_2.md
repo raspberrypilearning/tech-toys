@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Περιστροφή του παπιγιόν
 
-Let's code a bow tie that spins when clicked.
+Ας γράψουμε κώδικα ώστε το παπιγιόν να περιστρέφεται όταν πατηθεί.
 
 --- task ---
 
-Open the Scratch starter project.
+Άνοιξε το αρχικό έργο Scratch.
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Σε σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/tech-toys-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Χωρίς σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/tech-toys-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον Scratch επεξεργαστή εκτός σύνδεσης, μπορείς να τον βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+Στο αρχικό έργο, θα πρέπει να δεις 2 χαρακτήρες, έναν φορητό υπολογιστή και ένα ελικόπτερο.
 
-![starter projects](images/toys-starter.png)
+![αρχικά έργα](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Κάνε κλικ στο αντικείμενο «Παπιγιόν» και πρόσθεσε αυτόν τον κώδικα:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![αντικείμενο παπιγιόν](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Κάνε κλικ στο παπιγιόν για να εκτελεστεί ο κώδικάς σου. Θα πρέπει να δεις ότι το παπιγιόν γυρίζει 15 μοίρες δεξιόστροφα 10 φορές, γυρίζοντας συνολικά 150 μοίρες.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![περιστροφή παπιγιόν κατά 150 μοίρες](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Βρες το μπλοκ `σημείο κατεύθυνσης`{:class="block3motion"} και, _χωρίς να το σύρεις_, κάνε κλικ για να επαναφέρεις το παπιγιόν στην αρχική του θέση.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Συμβουλή: Στο Scratch μπορείς να κάνεις κλικ σε ένα μπλοκ για να το εκτελέσεις αμέσως. Δεν χρειάζεται καν να το σύρεις πρώτα στην περιοχή των σεναρίων!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Για να κάνεις το παπιγιόν να κάνει 1 πλήρη περιστροφή, οι αριθμοί στον κώδικά σου πρέπει να προσθέσουν έως και 360 μοίρες. Άλλαξε τον κώδικά σου έτσι ώστε το παπιγιόν να γυρίζει `36` μοίρες για 10 φορές (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![αντικείμενο παπιγιόν](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Δοκίμασε ξανά τον κώδικά σου. Αυτή τη φορά, το παπιγιόν σου πρέπει να κάνει 1 πλήρη περιστροφή 360 μοιρών και να καταλήξει εκεί που ξεκίνησε.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Αν θέλεις το παπιγιόν να κάνει 4 πλήρεις περιστροφές, μπορείς να αλλάξεις τον αριθμό στο μπλοκ `επανάληψη` {:class="block3control"} από `10` σε `40`.
 
 ```blocks3
 when this sprite clicked

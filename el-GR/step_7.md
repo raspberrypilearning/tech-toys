@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## Πρόκληση: Δημιούργησε το δικό σου παιχνίδι τεχνολογίας!
+Μπορείς να δημιουργήσεις το δικό σου παιχνίδι τεχνολογίας;
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+Θα μπορούσες να κάνεις τις κεραίες να κινούνται κάθε φορά που τις κάνουμε κλικ; Εδώ είναι ο κώδικας που θα χρειαστεί να χρησιμοποιήσεις:
 
-![antennae sprite](images/antennae-sprite.png)
+![αντικείμενο κεραίες](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds
@@ -20,6 +20,6 @@ wait (0.1) seconds
 turn ccw (15) degrees
 ```
 
-You could make any tech toy you like. Here are some other sprites you could use:
+Θα μπορούσες να φτιάξεις οποιοδήποτε παιχνίδι τεχνολογίας σου αρέσει. Εδώ είναι μερικά άλλα αντικείμενα που θα μπορούσες να χρησιμοποιήσεις:
 
-![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)
+![αντικείμενα ρομπότ, πύραυλος, μοτοσικλέτα, ηλεκτρική κιθάρα](images/toys-sprites.png)

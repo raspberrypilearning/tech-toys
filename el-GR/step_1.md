@@ -55,23 +55,23 @@ title: Τι θα χρειαστείς
 title: Τι θα μάθεις
 ---
 
-- How to animate sprites
-- How to respond to keyboard input
-- Understand how broadcast works
+- Πώς να κάνεις τα αντικείμενα να κινούνται
+- Πώς να ανταποκριθείς στην είσοδο πληκτρολογίου
+- Να καταλάβεις πώς λειτουργεί η εκπομπή
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Πρόσθετες πληροφορίες για εκπαιδευτικούς
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/tech-toys/print)"{:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
 
 --- /collapse ---

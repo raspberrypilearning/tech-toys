@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Εισαγωγή
 
-In this project you'll learn how to code your own tech toys!
+Σε αυτό το έργο, θα μάθεις πώς να γράψεις κώδικα για τα δικά σου παιχνίδια τεχνολογίας!
 
-### What you will make
+### Τι θα φτιάξεις
 
 --- no-print ---
 
@@ -17,42 +17,42 @@ In this project you'll learn how to code your own tech toys!
   <img src="images/toys-final.png">
 </div>
 
-+ Click the bow tie to see it spin
-+ Click the sunglasses to see them change colour
-+ Click the laptop to power up the helicopter
-+ Use the arrow keys to fly the helicopter
-+ Press the space bar to make the helicopter loop-the-loop
++ Κάνε κλικ στο παπιγιόν για να το δεις να περιστρέφεται
++ Κάνε κλικ στα γυαλιά ηλίου για να τα δεις να αλλάζουν χρώμα
++ Κάνε κλικ στον φορητό υπολογιστή για να ενεργοποιήσεις το ελικόπτερο
++ Χρησιμοποίησε τα πλήκτρα με τα βελάκια για να πετάξει(ς) το ελικόπτερο
++ Πάτησε το πλήκτρο διαστήματος για να κάνεις το ελικόπτερο να κάνει μία πλήρη περιστροφή
 
 --- /no-print ---
 
 --- print-only ---
 
-![complete project](images/toys-final.png)
+![ολοκληρωμένο έργο](images/toys-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Τι θα χρειαστείς
 ---
 
-### Hardware
+### Υλικό
 
-+ A computer capable of running Scratch
++ Ένας υπολογιστής ικανός να τρέχει το Scratch
 
-### Software
+### Λογισμικό
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [σε σύνδεση](http://rpf.io/scratchon){:target="_blank"} είτε [χωρίς σύνδεση](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Λήψεις
 
-The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
+Το αρχικό project μπορεί να βρεθεί [εδώ](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Τι θα μάθεις
 ---
 
 - How to animate sprites

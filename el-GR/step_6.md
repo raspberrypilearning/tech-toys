@@ -1,12 +1,12 @@
 ## Πλήρης περιστροφή
 
-Let's code your helicopter to do a 360 degree spin.
+Ας γράψουμε κώδικα ώστε το ελικόπτερό σου να κάνει περιστροφή 360 μοιρών.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Θέλουμε το ελικόπτερο να κάνει περιστροφή 360 μοιρών όποτε πατηθεί το πλήκτρο διαστήματος. Να θυμάσαι ότι οι αριθμοί στον κώδικά σου πρέπει να έχουν άθροισμα έως 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![αντικείμενο ελικόπτερο](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Δοκίμασε τον κώδικά σου πατώντας το πλήκτρο διαστήματος και θα δεις ότι το ελικόπτερό σου περιστρέφεται πολύ αργά. Αυτό συμβαίνει επειδή γυρίζει μόνο 1 μοίρα 360 φορές.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Για να επιταχύνεις την περιστροφή του ελικοπτέρου σου, άλλαξε τους αριθμούς στον κώδικά σου έτσι ώστε να γυρίζει περισσότερες μοίρες, λιγότερες φορές. Δεν έχει σημασία ποιους αριθμούς επιλέγεις αρκεί να έχουν άθροισμα έως 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![αντικείμενο ελικόπτερο](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Εάν θέλεις το ελικόπτερο να κινείται καθώς και να περιστρέφεται, απλώς πρόσθεσε ένα μπλοκ `κίνηση`{:class="block3motion"} στον κώδικά σου.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Πάτησε το πλήκτρο διαστήματος ξανά για να ελέγξεις τον κώδικά σου. Θα πρέπει να δεις το ελικόπτερό σου να κινείται σε κύκλο. Τι συμβαίνει εάν αλλάξεις τον αριθμό στο μπλοκ `κίνηση`{:class="block3motion"};
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![ελικόπτερο που κάνει περιστροφή](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

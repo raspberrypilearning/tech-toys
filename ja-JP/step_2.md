@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## ちょうネクタイを回す
 
-Let's code a bow tie that spins when clicked.
+ちょうネクタイを押したら回るようにプログラムを書いてみましょう。
 
 --- task ---
 
-Open the Scratch starter project.
+基本（きほん）のScratchプロジェクトを開きます。
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**オンライン**: [基本（きほん）のプロジェクト](http://rpf.io/tech-toys-on){:target="_blank"}を開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+スクラッチアカウントを持っている場合は、**リミックス**をクリックしてコピーを作成できます。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**オフライン**: オフラインエディターで[基本（きほん）のプロジェクト](http://rpf.io/p/en/tech-toys-go){:target="_blank"}を開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}からScratchオフラインエディターをダウンロードしてインストールできます。
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+基本（きほん）のプロジェクトには2人の人物とラップトップ、ヘリコプターがあります。
 
-![starter projects](images/toys-starter.png)
+![基本（きほん）のプロジェクト](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+「ちょうネクタイ」のスプライトを押して、次のコードを追加します。
 
-![bowtie sprite](images/bowtie-sprite.png)
+![ちょうネクタイのスプライト](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,9 +38,9 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+ちょうネクタイを押してプログラムを実行します。 ちょうネクタイが時計回りに15度ずつ10回 回り、合計で150度回ります。
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![150度回ったちょうネクタイ](images/toys-bowtie-test.png)
 
 --- /task ---
 

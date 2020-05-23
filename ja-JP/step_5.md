@@ -23,9 +23,9 @@ change y by (5)
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+ヘリコプターをもっと簡単に動かすために、このブロックに代えてヘリコプターの`ずっと`{:class="block3motion"}ループの中に上方向に動かすプログラムを追加します。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+左矢印を押したときに左に移動するようにヘリコプターにプログラムを追加することもできます。 今度は`x`{:class="block3motion"}座標を`-5`ずつ変える必要があります。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+では、ヘリコプターが下矢印キーと右矢印キーに反応するようにプログラムを書いてみてください。
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+ヘリコプターを上や左に動かすのに使ったプログラムをコピーし、使用した`キー`{:class="block3sensing"}と`x`{:class="block3motion"}と`y`{:class="block3motion"}の値を変更します。
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+次のブロックが必要です：
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+コードは以下のようになります：
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

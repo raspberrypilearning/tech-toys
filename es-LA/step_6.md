@@ -1,4 +1,4 @@
-## Gira el bucle
+## Loop-the-loop
 
 Vamos a programar tu helicóptero para que haga un giro de 360 grados.
 
@@ -19,7 +19,7 @@ end
 
 --- task ---
 
-Prueba tu código al pulsar espacio y verás que tu helicóptero gira muy de manera muy lenta. Esto se debe a que sólo gira 1 grado 360 veces.
+Test your code by pressing space, and you'll see that your helicopter spins very slowly. Esto se debe a que sólo gira 1 grado 360 veces.
 
 --- /task ---
 

@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2)もあります。
 
 --- /no-print ---
 
-## Introduction
+## はじめに
 
-In this project you'll learn how to code your own tech toys!
+このプロジェクトでは、自分だけのハイテクなおもちゃのプログラムを書く方法を学びます。
 
-### What you will make
+### つくるもの
 
 --- no-print ---
 
@@ -17,61 +17,61 @@ In this project you'll learn how to code your own tech toys!
   <img src="images/toys-final.png">
 </div>
 
-+ Click the bow tie to see it spin
-+ Click the sunglasses to see them change colour
-+ Click the laptop to power up the helicopter
-+ Use the arrow keys to fly the helicopter
-+ Press the space bar to make the helicopter loop-the-loop
++ ちょうネクタイを押すと回る
++ サングラスを押すと色が変わる
++ ラップトップを押すとヘリコプターが動きだす
++ 矢印キーを使ってヘリプターを飛ばす
++ スペースキーを押すとヘリコプターが宙返（ちゅうがえ）りする
 
 --- /no-print ---
 
 --- print-only ---
 
-![complete project](images/toys-final.png)
+![完成したプロジェクト](images/toys-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 必要（ひつよう）なもの
 ---
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch
++ Scratchを実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3（[オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### ダウンロード
 
-The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
+基本（きほん）のプロジェクトは [こちら](http://rpf.io/p/en/tech-toys-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 学習すること
 ---
 
-- How to animate sprites
-- How to respond to keyboard input
-- Understand how broadcast works
+- スプライトを動かす方法
+- キーボード入力に反応する方法
+- 送るブロックがどう動くか理解する
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 教育者向けの追加情報
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_ blank"}を使用してください。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
+[完成したプロジェクトはここ](http://rpf.io/p/en/tech-toys-get){:target="_blank"}にあります。
 
 --- /collapse ---

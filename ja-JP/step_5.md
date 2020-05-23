@@ -1,12 +1,12 @@
-## Flying your helicopter
+## ヘリコプターを飛ばす
 
-Let's use the arrow keys to fly your helicopter.
+矢印キーを使ってヘリコプターと飛ばしてみましょう。
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+上矢印が押されたときにヘリコプターが上昇するようにプログラムを書くところから始めましょう。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,7 +17,7 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+プログラムを試してみると、上矢印を押すたびにヘリコプターの`y`{:class="block3motion"}座標（上／下）が変わることがわかります。
 
 --- /task ---
 

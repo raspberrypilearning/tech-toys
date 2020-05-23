@@ -1,6 +1,6 @@
 ## Enciende tu helicóptero
 
-Vamos a programar tu helicóptero para que se inicie cuando se haga clic en tu notebook.
+Let's code your helicopter to start up when your laptop is clicked.
 
 --- task ---
 
@@ -32,7 +32,7 @@ when I receive [start v]
 
 --- task ---
 
-Si haces clic en la pestaña 'Disfraces' de tu helicóptero, notarás que tiene 2 disfraces con hélices con mínimas diferencias.
+If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
 
 ![disfraces de helicóptero](images/toys-helicopter-costumes.png)
 

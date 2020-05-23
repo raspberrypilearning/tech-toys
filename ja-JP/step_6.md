@@ -1,12 +1,12 @@
-## Loop-the-loop
+## 宙返（ちゅうがえ）りする
 
-Let's code your helicopter to do a 360 degree spin.
+ヘリコプターが360度回るようにプログラムを書きましょう。
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+スペースキーが押されるたびにヘリコプターが360度回るようにしたいです。 プログラムの中の数値は360まで足し込まれる必要があることに注意してください。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+スペースキーを押して試してみると、ヘリコプターがかなりゆっくり回ることがわかります。 それは1度ずつ360回繰り返すからです。
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+ヘリコプターが回る速度を上げるためには、少ない回数でより多くの角度を回るようにプログラムの数値を変更します。 合計が360になれば、どんな数を選んでもよいです。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ヘリコプターのスプライト](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+ヘリコプターを回すだけではなく動かしたい場合は、`(10)歩動かす`{:class="block3motion"}ブロックをプログラムに追加するだけです。
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+もう一度スペースキーを押して、プログラムを試します。 ヘリコプターが円を描（えが）くように動くはずです。 `(5)歩動かす`{:class="block3motion"}ブロックの中の数値を変えたらどうなりますか？
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![ヘリコプターのループ](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

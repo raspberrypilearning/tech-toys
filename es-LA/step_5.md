@@ -44,7 +44,7 @@ end
 
 --- task ---
 
-También puedes codificar su helicóptero para que se mueva a la izquierda cuando se presiona la flecha izquierda. Esta vez tendrás que cambiar la posición `x`{:class="block3motion"} del helicóptero por `-5`.
+You can also code your helicopter to move to the left when the left arrow is pressed. Esta vez tendrás que cambiar la posición `x`{:class="block3motion"} del helicóptero por `-5`.
 
 ![objeto helicóptero](images/helicopter-sprite.png)
 

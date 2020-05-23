@@ -65,7 +65,7 @@ end
 
 --- task ---
 
-Ahora programa tu helicóptero para responder a las teclas de flecha hacia abajo y derecha.
+Now code your helicopter to respond to the down and right arrow keys.
 
 --- hints ---
 

@@ -46,21 +46,21 @@ end
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+`(90)度に向ける`{:class="block3motion"}ブロックを見つけて、_そのブロックをドラッグせずに_クリックし、ちょうネクタイを最初の位置に戻します。
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+ヒント：Scratchではブロックをクリックするとすぐに実行できます。 最初にブロックをスクリプトエリアにドラッグする必要さえありません！
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+ちょうネクタイを一回転させるには、プログラムの中の数値を360度まで足していく必要があります。 ちょうネクタイを`36`度ずつ10回（36 x 10 = 360）回すようにプログラムを変更してみましょう。
 
-![bowtie sprite](images/bowtie-sprite.png)
+![ちょうネクタイのスプライト](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+もう一度試してみましょう。 今回はちょうネクタイが360度回って最初の位置に戻るはずです。
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+ちょうネクタイを4回転させたいときは、`(10)回繰り返す`{:class"block3control"}ブロックの中の数値を`10`から`40`に変更します。
 
 ```blocks3
 when this sprite clicked

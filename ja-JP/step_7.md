@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## チャレンジ：自分だけのハイテクおもちゃをつくろう！
+自分だけのハイテクおもちゃをつくれますか？
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+アンテナを押すたびにアンテナを動かすことができますか？ 使う必要があるコードブロックは以下の通りです：
 
-![antennae sprite](images/antennae-sprite.png)
+![動くスプライト](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds

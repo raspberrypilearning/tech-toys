@@ -1,4 +1,4 @@
-## Powering up your helicopter
+## ヘリコプターを起動する
 
 Let's code your helicopter to start up when your laptop is clicked.
 

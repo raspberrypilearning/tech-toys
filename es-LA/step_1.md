@@ -56,7 +56,7 @@ title: Lo que vas a aprender
 ---
 
 - Cómo animar objetos
-- Crear una respuesta al presionar el teclado
+- How to respond to keyboard input
 - Comprender cómo funciona la transmisión
 
 --- /collapse ---

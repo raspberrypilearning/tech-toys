@@ -1,6 +1,6 @@
 ## Girar el Corbatín
 
-Let's code a bow tie that spins when clicked.
+Vamos a codificar un corbatín para que gire cuando se hace clic en él.
 
 --- task ---
 

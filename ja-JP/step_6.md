@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-ヘリコプターを回すだけではなく動かしたい場合は、`(10)歩動かす`{:class="block3motion"}ブロックをプログラムに追加するだけです。
+ヘリコプターを回すだけではなく動かしたい場合は、`(5)歩動かす`{:class="block3motion"}ブロックをプログラムに追加するだけです。
 
 ```blocks3
 when [space v] key pressed

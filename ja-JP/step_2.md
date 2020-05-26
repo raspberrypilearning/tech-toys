@@ -77,7 +77,7 @@ end
 
 --- /task ---
 
-ちょうネクタイを4回転させたいときは、`(10)回繰り返す`{:class"block3control"}ブロックの中の数値を`10`から`40`に変更します。
+ちょうネクタイを4回転させたいときは、`(10)回繰り返す`{:class="block3control"}ブロックの中の数値を`10`から`40`に変更します。
 
 ```blocks3
 when this sprite clicked

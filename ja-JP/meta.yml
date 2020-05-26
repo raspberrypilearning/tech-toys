@@ -1,0 +1,19 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: ハイテクなおもちゃ
+description: ハイテクなおもちゃのプログラムを書く方法を学ぶ！
+version: 4
+last_tested: 2019-04-10
+steps:
+  - title: はじめに
+  - title: ちょうネクタイを回す
+  - title: 'チャレンジ：色が変わるサングラス'
+    challenge: true
+  - title: ヘリコプターを起動する
+  - title: ヘリコプターを飛ばす
+  - title: 宙返（ちゅうがえ）りする
+  - title: 'チャレンジ：自分だけのハイテクおもちゃをつくろう！'
+    challenge: true
+  - title: 次は何をしますか？

@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## 挑戰：創建專屬於你的高科技玩具！
+你能夠創建一個屬於自己的高科技玩具嗎？
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+你能做出一個點擊後就會動的天線嗎？ 這裡是你需要的程式積木：
 
-![antennae sprite](images/antennae-sprite.png)
+![天線](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds
@@ -20,6 +20,6 @@ wait (0.1) seconds
 turn ccw (15) degrees
 ```
 
-You could make any tech toy you like. Here are some other sprites you could use:
+你可以製作任何你喜歡的高科技玩具。 這裡有一些角色你可以使用：
 
-![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)
+![機器人，火箭，摩托車，電吉他](images/toys-sprites.png)

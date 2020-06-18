@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Rotierende Fliege
 
-Let's code a bow tie that spins when clicked.
+Lass uns eine Fliege programmieren, die nach dem Anklicken rotiert.
 
 --- task ---
 
-Open the Scratch starter project.
+Öffne das Scratch Start-Projekt.
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: Öffne das [Starter-Projekt](http://rpf.io/tech-toys-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Offline**: Öffne das [Basisprojekt](http://rpf.io/p/en/tech-toys-go){:target="_blank"} im Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+Im Start-Projekt solltest du 2 Figuren, einen Laptop und einen Helikopter, sehen.
 
-![starter projects](images/toys-starter.png)
+![Start-Projekt](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Klicke auf den Sprite mit der Fliege und füge folgenden Code hinzu:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![Fliegen Sprite](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Klicke auf die Fliege, um deinen Code auszuführen. Du solltest sehen, dass die Fliege 10 mal um 15 Grad im Uhrzeigersinn, insgesamt 150 Grad, rotiert.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![Fliege um 150 Grad rotiert](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Finde den `setze Richtung auf`{:class="block3motion"} Block und klicke auf ihn, _ohne ihn in den Skriptbereich zu bewegen_, um die Fliege auf ihre Startposition zurückzusetzen.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Tipp: In Scratch kannst du auf einen Block klicken, um ihn direkt auszuführen. Du musst ihn dafür nicht in den Skriptbereich bewegen!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Damit die Fliege eine komplette Drehung macht, muss die Summe der Zahlen in deinem Code 360 ergeben. Ändere deinen Code, damit die Fliege sich 10 Mal um `36` Grad dreht (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![Fliegen Sprite](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Teste deinen Code noch einmal. Dieses Mal sollte die Fliege eine Drehung um 360 Grad machen und da stoppen, wo sie angefangen hat.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Wenn du möchtest, dass die Fliege 4 ganze Umdrehungen macht, kannst du die Nummer in dem `Wiederholen`{:class="block3control"} Block von `10` auf `40` ändern.
 
 ```blocks3
 when this sprite clicked

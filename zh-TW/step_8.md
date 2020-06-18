@@ -1,10 +1,10 @@
-## What next?
+## 接下來呢？
 
-Take a look at the [Snowball fight](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch project.
+看看 [打雪仗](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch專案。
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+使用鼠標來調整雪球的角度，然後按住滑鼠來控制雪球的力道。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![完成專案](images/snow-final.png)
 
 --- /print-only ---

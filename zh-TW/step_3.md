@@ -1,7 +1,7 @@
-## Challenge: Colour-changing sunglasses
-Can you use the following blocks to make your sunglasses change colour when clicked?
+## 挑戰：變色太陽眼鏡
+你能使用下面的積木來製作點擊後會變色的太陽眼鏡嗎？
 
-![sunglasses sprite](images/sunglasses-sprite.png)
+![太陽眼鏡](images/sunglasses-sprite.png)
 
 ```blocks3
 repeat (10
@@ -12,4 +12,4 @@ change [colour v] effect by (25)
 when this sprite clicked
 ```
 
-Remember that you can change the numbers in the code blocks if you want to!
+請記住，你可以根據需求來更改程式積木中的數字！

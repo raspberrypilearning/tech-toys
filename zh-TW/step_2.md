@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## 旋轉領結
 
-Let's code a bow tie that spins when clicked.
+讓我們編寫一個點擊後會旋轉的領結
 
 --- task ---
 
-Open the Scratch starter project.
+打開Scratch入門專案。
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**線上版**: 開啟 [入門專案](http://rpf.io/tech-toys-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果你有 Scratch 帳戶，你可以透過點擊**Remix**來創建副本並進行改編。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/tech-toys-go){:target="_blank"}。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+如果你需要 Scratch 離線版編輯器，可以在這找到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+在入門專案中，你應該會看到2個人物、一台筆記型電腦和一架直升機。
 
-![starter projects](images/toys-starter.png)
+![入門專案](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+點擊“領結”，然後添加以下程式碼：
 
-![bowtie sprite](images/bowtie-sprite.png)
+![領結](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+點擊領結來執行你的程式碼。 你應該會看到領結順時針旋轉15度10次，總共旋轉150度。
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![領結轉150度](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+找到`面朝角度`{:class="block3motion"}積木，先_不要拖曳它_，請點擊它來讓領結回到初始位置。
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+提示：在Scratch中，你可以點擊一個積木以立即執行它。 你甚至不需要先將它拖曳到程式區域！
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+為了使領結完成1次完整旋轉，程式碼中的數字加起來需要為360度。 透過更改程式碼，讓領結旋轉` 36 `度10次(36 x 10 = 360)。
 
-![bowtie sprite](images/bowtie-sprite.png)
+![領結](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+再試試你的程式。 這次，你的領結應該進行1次完整的360度旋轉，並停止在初始位置。
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+如果希望領結完成4次完整旋轉，可以把`重複` {:class=“block3control”}積木的數字從`10`改成至`40` 。
 
 ```blocks3
 when this sprite clicked

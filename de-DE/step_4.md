@@ -20,7 +20,7 @@ Dieser Code sendet eine Nachricht zu allen anderen Sprites. Wenn du den Code tes
 
 --- task ---
 
-Klicke auf den Hubschrauber Sprite und füge einen `Wenn ich empfange` Block hinzu. Jeder Code, der an diesen Block angehängt wird, wird ausgeführt, sobald er die 'Start' Nachricht vom Laptop erhält.
+Klicke auf den Hubschrauber Sprite und füge einen `Wenn ich empfange`{:class="block3events"} Block hinzu. Jeder Code, der an diesen Block angehängt wird, wird ausgeführt, sobald er die 'Start' Nachricht vom Laptop erhält.
 
 ![Hubschrauber Sprite](images/helicopter-sprite.png)
 

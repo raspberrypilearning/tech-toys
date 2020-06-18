@@ -54,7 +54,7 @@ end
 
 --- task ---
 
-Drücke die Leertaste um deinen Code erneut zu testen. Der Hubschrauber sollte sich nun in einem Kreis bewegen. Was passiert, wenn du die Nummer im `gehe` Block änderst?
+Drücke die Leertaste um deinen Code erneut zu testen. Der Hubschrauber sollte sich nun in einem Kreis bewegen. Was passiert, wenn du die Nummer im `gehe`{:class="block3motion"} Block änderst?
 
 ![Hubschrauber Looping](images/toys-helicopter-360-move-test.png)
 

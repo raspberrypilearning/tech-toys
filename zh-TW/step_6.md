@@ -1,12 +1,12 @@
-## Loop-the-loop
+## 翻跟斗飛行
 
-Let's code your helicopter to do a 360 degree spin.
+讓我們為你的直升機編碼來進行360度旋轉。
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+我們希望每當按下空白鍵時，直升機都會進行360度旋轉。 請記住，你程式中的數字加起來需要為360。
 
-![helicopter sprite](images/helicopter-sprite.png)
+![直升機](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+按空格鍵測試程式碼，你會發現直升機旋轉非常緩慢。 那是因為它只轉了1度並轉360次。
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+為了加快直升機的旋轉速度，請更改程式中的數字，以使其旋轉角度增加，旋轉次數減少。 設定多少數字都沒關係，只要它們加起來等於360！
 
-![helicopter sprite](images/helicopter-sprite.png)
+![直升機](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+如果你想讓直升機移動以及旋轉，只需添加`移動`{:class=“block3motion”}積木到你的程式中。
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+再次按空白鍵來測試你的程式。 你應該會看到直升機轉了一圈。 如果你更改`移動`{:class=“block3motion”}積木裡的數字會怎樣？
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![直升機翻跟斗飛行](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

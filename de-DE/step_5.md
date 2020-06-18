@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Fliege deinen Hubschrauber
 
-Let's use the arrow keys to fly your helicopter.
+Lass uns die Pfeiltasten verwenden, um den Hubschrauber zu fliegen.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Fangen wir damit an den Hubschrauber nach oben zu bewegen, wenn die Pfeil nach oben Taste gedrückt wird.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Teste deinen Code um zu sehen, wie sich die Position deines Hubschraubers `y`{:class="block3motion"} (auf/ab) ändert, wenn die Pfeil nach oben Taste gedrückt wird.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Um deinen Hubschrauber flüssiger zu bewegen, kannst du stattdessen den Code zum „Sich nach oben bewegen“ der `wiederhole fortlaufend`{:class="block3motion"} Schleife des Hubschraubers hinzufügen.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Du kannst auch programmieren, dass sich der Hubschrauber nach links bewegt, wenn die Pfeil nach links Taste gedrückt wird. Diesmal musst du die Position des Hubschraubers `x`{:class="block3motion"} um `-5` ändern.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Programmiere als nächstes die Reaktion des Hubschraubers für die Pfeil nach unten und Pfeil nach rechts Tasten.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Kopiere den Code, den du benutzt hast, um den Helikopter nach oben und nach links zu bewegen und ändere die verwendeten `Tasten`{:class="block3sensing"} und die `x`{:class="block3motion"} & `y`{:class="block3motion"} Werte
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Du wirst diese Blöcke benötigen:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

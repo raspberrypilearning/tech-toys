@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Looping
 
-Let's code your helicopter to do a 360 degree spin.
+Lass uns deinen Hubschrauber programmieren, um einen Looping zu fliegen.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Wir wollen, dass der Hubschrauber jedesmal eine 360 Grad Drehung macht, wenn die Leertaste gedrückt wird. Denk daran, dass die Zahlen in deinem Code 360 ergeben müssen.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Teste deinen Code durch drücken der Leertaste. Du solltest sehen, dass der Hubschrauber sich sehr langsam dreht. Das liegt daran, dass er sich 360 Mal nur um 1 Grad dreht.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Ändere die Zahlen in deinem Code, damit er sich in weniger Schritten mehr dreht, um die Drehung des Hubschraubers zu beschleunigen. Es ist egal welche Zahlen du wählst, solange die Summe 360 beträgt!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![Hubschrauber Sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Wenn der Hubschrauber sich zu der Drehung auch Bewegen soll, füge einfach einen `gehe`{:class="block3motion"} Block zu deinem Code hinzu.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Drücke die Leertaste um deinen Code erneut zu testen. Der Hubschrauber sollte sich nun in einem Kreis bewegen. Was passiert, wenn du die Nummer im `gehe` Block änderst?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![Hubschrauber Looping](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

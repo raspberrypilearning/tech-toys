@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2) 版本。
 
 --- /no-print ---
 
-## Introduction
+## 介紹
 
-In this project you'll learn how to code your own tech toys!
+你將在本專案中學習如何製作你自己的高科技玩具。
 
-### What you will make
+### 你會做出的玩意兒
 
 --- no-print ---
 
@@ -17,61 +17,61 @@ In this project you'll learn how to code your own tech toys!
   <img src="images/toys-final.png">
 </div>
 
-+ Click the bow tie to see it spin
-+ Click the sunglasses to see them change colour
-+ Click the laptop to power up the helicopter
-+ Use the arrow keys to fly the helicopter
-+ Press the space bar to make the helicopter loop-the-loop
++ 點擊領結來使其旋轉
++ 點擊太陽眼鏡來使其變色
++ 點擊筆記型電腦來啟動直升機
++ 使用方向鍵操控直升機
++ 按下空白鍵，讓直升機做翻跟斗飛行
 
 --- /no-print ---
 
 --- print-only ---
 
-![complete project](images/toys-final.png)
+![完成專案](images/toys-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 你需要什麼
 ---
 
-### Hardware
+### 硬體
 
-+ A computer capable of running Scratch
++ 可運行Scratch 的電腦
 
-### Software
+### 軟體
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### 下載
 
-The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
+入門專案[由此下載](http://rpf.io/p/en/tech-toys-go){:target="_blank"}。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 你會學到
 ---
 
-- How to animate sprites
-- How to respond to keyboard input
-- Understand how broadcast works
+- 如何讓你的角色動起來
+- 如何回應鍵盤輸入
+- 了解廣播的工作原理
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 給教師的其它資訊
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
+如果您需要列印此專案內容，請下載 [列印版本](https://projects.raspberrypi.org/en/projects/tech-toys/print){：target =“_ blank”}。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/tech-toys-get){:target="_blank"}。
 
 --- /collapse ---

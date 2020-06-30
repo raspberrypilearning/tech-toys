@@ -1,7 +1,7 @@
-## Challenge: Colour-changing sunglasses
-Can you use the following blocks to make your sunglasses change colour when clicked?
+## Завдання: сонцезахисні окуляри, що змінюють свій колір
+Чи можеш ти, використовуючи нижченаведені блоки, зробити так, щоб твої сонцезахисні окуляри змінювали колір, коли на них клацають?
 
-![sunglasses sprite](images/sunglasses-sprite.png)
+![спрайт сонцезахисних окулярів](images/sunglasses-sprite.png)
 
 ```blocks3
 repeat (10
@@ -12,4 +12,4 @@ change [colour v] effect by (25)
 when this sprite clicked
 ```
 
-Remember that you can change the numbers in the code blocks if you want to!
+Пам’ятай, що ти можеш змінювати числа в блоках коду, якщо забажаєш!

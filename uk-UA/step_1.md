@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Вступ
 
-In this project you'll learn how to code your own tech toys!
+У цьому проєкті ти дізнаєшся як запрограмувати власні технічні іграшки!
 
-### What you will make
+### Що ти зробиш
 
 --- no-print ---
 
@@ -17,61 +17,61 @@ In this project you'll learn how to code your own tech toys!
   <img src="images/toys-final.png">
 </div>
 
-+ Click the bow tie to see it spin
-+ Click the sunglasses to see them change colour
-+ Click the laptop to power up the helicopter
-+ Use the arrow keys to fly the helicopter
-+ Press the space bar to make the helicopter loop-the-loop
++ Клацни на краватку-метелик, щоб побачити, як вона обертається
++ Клацни на сонцезахисні окуляри, щоб побачити, як вони змінюють колір
++ Клацни на ноутбук, щоб запустити гелікоптер
++ Використовуй клавіші зі стрілками для керуванням гелікоптером
++ Натисни на клавішу "пропуск", щоб гелікоптер зробив мертву петлю
 
 --- /no-print ---
 
 --- print-only ---
 
-![complete project](images/toys-final.png)
+![завершений проєкт](images/toys-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Що тобі знадобиться
 ---
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch
++ Комп'ютер, що підтримує Скретч
 
-### Software
+### Програмне забезпечення
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### Завантаження
 
-The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
+Початковий проєкт можна знайти [тут](http://rpf.io/p/en/tech-toys-go){:target="_ blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Чого ти навчишся
 ---
 
-- How to animate sprites
-- How to respond to keyboard input
-- Understand how broadcast works
+- Як анімувати спрайти
+- Як обробляти ввід з клавіатури
+- Зрозумієш як працює оповіщення
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Додаткова інформація для викладачів
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/tech-toys-get){:target="_ blank"}.
 
 --- /collapse ---

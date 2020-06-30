@@ -4,7 +4,7 @@ Lass uns die Pfeiltasten verwenden, um den Hubschrauber zu fliegen.
 
 --- task ---
 
-Fangen wir damit an den Hubschrauber nach oben zu bewegen, wenn die Pfeil nach oben Taste gedrückt wird.
+Fangen wir damit an, den Hubschrauber nach oben zu bewegen, wenn die Pfeil nach oben Taste gedrückt wird.
 
 ![Hubschrauber Sprite](images/helicopter-sprite.png)
 

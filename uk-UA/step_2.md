@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Краватка-метелик, що крутиться
 
-Let's code a bow tie that spins when clicked.
+Давай запрограмуємо краватку-метелик і коли на неї клацають - вона починає крутитися.
 
 --- task ---
 
-Open the Scratch starter project.
+Відкрий початковий проєкт на Скретч.
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Онлайн**: відкрий [початковий проєкт](http://rpf.io/tech-toys-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Офлайн**: відкрий [початковий проєкт](http://rpf.io/p/en/tech-toys-go){:target="_blank"} в офлайн-редакторі.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+У початковому проєкті ти маєш побачити 2 персонажі, ноутбук та гелікоптер.
 
-![starter projects](images/toys-starter.png)
+![початковий проєкт](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Клацни на спрайт "Краватка-метелик" і додай наступний код:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![спрайт краватки-метелика](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Клацни на краватку-метелик, щоб запустити свій код. Ти маєш побачити як вона повертається на 15 градусів за годинниковою стрілкою 10 разів, тобто в сумі на 150 градусів.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![краватка-метелик, що провернулася на 150 градусів](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Знайди блок `повернути в напрямку`{:class="block3motion"} і, _не перетягуючи його_, клацни на нього, щоб повернути краватку-метелик в початкове положення.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Підказка: в Скретч ти можеш клацнути на якийсь блок і зразу його запустити. Тобі навіть не треба перетягувати його в область коду!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Для того, щоб краватка-метелик виконала 1 повний оберт, числа в твоєму коді повинні разом давати 360 градусів. Зміни свій код, щоб краватка-метелик поверталася на `36` градусів 10 разів (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![спрайт краватки-метелика](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Перевір свій код ще раз. Цього разу твоя краватка-метелик повинна виконати один повний оберт на 360 градусів і зупинитися там, де починала.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Якщо ти хочеш, що вона зробила 4 повних оберти, тобі треба змінити число в блоці `повторити`{:class="block3control"} з `10` на `40`.
 
 ```blocks3
 when this sprite clicked

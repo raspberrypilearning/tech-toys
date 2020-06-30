@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Мертва петля
 
-Let's code your helicopter to do a 360 degree spin.
+Давай запрограмуємо твій гелікоптер виконувати оберт на 360 градусів.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Ми хочемо, щоб гелікоптер робив оберт на 360 градусів, коли натискають на клавішу "пропуск". Пам’ятай, що числа в твоєму коді мають в сумі давати 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Протестуй свій код, натиснувши пропуск і ти побачиш, що гелікоптер повертається дуже повільно. Це тому, що він повертається лише на 1 градус 360 разів.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Щоб прискорити обертання гелікоптера, зміни числа в коді, щоб він повертався на більшу кількість градусів меншу кількість разів. Не має значення які числа ти вибереш, головне щоб в сумі вони складали 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Якщо ти хочеш, щоб твій гелікоптер ще й рухався під час обертання, просто додай до свого коду блок `перемістити`{:class="block3motion"}.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Знову натисни на пропуск, щоб протестувати свій код. Ти маєш побачити рух свого гелікоптера по колу. Що трапиться, якщо ти зміниш числа в блоці `перемістити`{:class="block3motion"}?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![мертва петля на гелікоптері](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

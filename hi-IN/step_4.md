@@ -1,12 +1,12 @@
-## Powering up your helicopter
+## हेलीकॉप्टर को चालू करना
 
-Let's code your helicopter to start up when your laptop is clicked.
+जब आपका लैपटॉप क्लिक किया जाता है, तो अपने हेलीकॉप्टर को शुरू करने के लिए कोड लिखिए।
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+चलो शुरू करें, लैपटॉप पर क्लिक करने पर `start`{:class="block3events"} संदेश को प्रसारित (broadcast) करें। आपको एक `start` नामक `नया संदेश (New Message)` बनाना होगा।
 
-![laptop sprite](images/laptop-sprite.png)
+![लैपटॉप स्प्राइट](images/laptop-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -14,15 +14,15 @@ start sound (computer beeps1 v)
 broadcast (start v)
 ```
 
-This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+यह कोड अन्य सभी स्प्राइट्स के लिए एक संदेश प्रसारित करता है। यदि आप इस कोड का परीक्षण करते हैं, तो आप देखेंगे कि अभी तक कुछ नहीं हुआ है! यह इसलिए है क्योंकि आपने संदेश का जवाब देने के लिए हेलीकॉप्टर में कोड नहीं जोड़ा है।
 
 --- /task ---
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+अपने हेलीकॉप्टर स्प्राइट पर क्लिक करें और एक `When I receive`{:class="block3events"} ब्लॉक को जोड़ें। इस ब्लॉक से जुड़ा कोई भी कोड तब चलाया जाएगा जब उसे लैपटॉप से 'start' संदेश प्राप्त होगा।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -32,17 +32,17 @@ when I receive [start v]
 
 --- task ---
 
-If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+यदि आप अपने हेलीकॉप्टर के 'Costumes' टैब पर क्लिक करते हैं, तो आप देखेंगे कि इसमें 2 costumes हैं जो थोड़े अलग हैं।
 
-![helicopter costumes](images/toys-helicopter-costumes.png)
+![हेलिकॉप्टर के कॉस्ट्यूम्स](images/toys-helicopter-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+आप हेलीकॉप्टर को एनिमेट करने के लिए इन 2 कॉस्ट्यूम्स का उपयोग कर सकते हैं। इस कोड को जोड़ें, ताकि हेलीकॉप्टर कॉस्ट्यूम को हमेशा के लिए बदल दे जब 'start' संदेश प्राप्त हों।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,8 +55,8 @@ end
 
 --- task ---
 
-Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+लैपटॉप स्प्राइट पर क्लिक करके अपने कोड का परीक्षण करें। क्या आपके हेलिकॉप्टर का प्रोपेलर एनिमेट होता है?
 
-![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+![चलता हुआ हेलीकॉप्टर](images/toys-helicopter-animation-test.png)
 
 --- /task ---

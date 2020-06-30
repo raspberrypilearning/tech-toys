@@ -2,8 +2,8 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Technik Spielzeug
-description: Lerne wie du dein eigenes Technik Spielzeug programmierst!
+title: Technikspielzeug
+description: Lerne wie du dein eigenes Technikspielzeug programmierst!
 version: 4
 last_tested: 2019-04-10
 steps:
@@ -21,7 +21,7 @@ steps:
   - 
     title: Looping
   - 
-    title: 'Herausforderung: Erstelle dein eigenes Technik-Spielzeug!'
+    title: 'Herausforderung: Erstelle dein eigenes Technikspielzeug!'
     challenge: true
   - 
     title: Wie geht es weiter?

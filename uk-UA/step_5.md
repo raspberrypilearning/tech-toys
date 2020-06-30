@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Польоти на гелікоптері
 
-Let's use the arrow keys to fly your helicopter.
+Давай будемо використовувати клавіші зі стрілками для польотів на гелікоптері.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Розпочнімо із програмування руху гелікоптера вгору, коли натиснуто клавішу з відповідною стрілкою.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Протестуй свій код і ти побачши, що позиція `y`{:class="block3motion"} (вгору/вниз) змінюється кожного разу, коли натиснуто на клавішу стрілка вгору.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Щоб твій гелікоптер рухався більш плавно, тобі краще додати цей код всередину циклу гелікоптера `завжди`{:class="block3motion"}.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Також ти можеш запрограмувати свій гелікоптер рухатися вліво, коли натиснуто клавішу з відповідною стрілкою. Цього разу ти маєш змінити позицію гелікоптера `x`{:class="block3motion"} на `-5`.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Тепер запрограмуй свій гелікоптер реагувати на клавіші зі стрілками вниз та вправо.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Скопіюй код, який використовувався для руху гелікоптера вгору та вліво, змінивши в ньому `клавіші`{:class="block3sensing"} та значення `x`{:class="block3motion"} та `y`{:class="block3motion"}
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Тобі знадобляться наступні блоки:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

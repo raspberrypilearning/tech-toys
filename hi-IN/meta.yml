@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Tech Toys
-description: Learn how to code your own tech toys!
+title: आधुनिक खिलौने
+description: अपने खुद के खिलौने कोड करना सीखें!
 version: 4
 last_tested: 2019-04-10
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Spinning Bow Tie
+    title: घूमता हुए बो टाई
   - 
-    title: 'Challenge: Colour-changing sunglasses'
+    title: 'चुनौती: रंग बदलने वाला चश्मा'
     challenge: true
   - 
-    title: Powering up your helicopter
+    title: हेलीकॉप्टर को चालू करना
   - 
-    title: Flying your helicopter
+    title: हेलीकॉप्टर को उड़ाना
   - 
-    title: Loop-the-loop
+    title: हेलिकॉप्टर को गोल गोल घुमाना
   - 
-    title: 'Challenge: Create your own tech toy!'
+    title: 'चुनौती: अपना खुद का आधुनिक खिलौना बनाएं!'
     challenge: true
   - 
-    title: What next?
+    title: आगे क्या?

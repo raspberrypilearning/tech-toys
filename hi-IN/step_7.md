@@ -1,9 +1,9 @@
-## Challenge: Create your own tech toy!
-Can you create your own tech toy?
+## चुनौती: अपना खुद का आधुनिक खिलौना बनाएं!
+क्या आप अपना खुद का आधुनिक खिलौना बना सकते हैं?
 
-You could make the antennae move whenever they're clicked? Here's the code blocks you will need to use:
+आप एंटीना को स्थानांतरित कर सकते हैं जब भी वे क्लिक किए जाते हैं? आपको इन कोड ब्लॉक्स की आवश्यकता होगी:
 
-![antennae sprite](images/antennae-sprite.png)
+![ऐन्टेना स्प्राइट](images/antennae-sprite.png)
 
 ```blocks3
 wait (0.1) seconds
@@ -20,6 +20,6 @@ wait (0.1) seconds
 turn ccw (15) degrees
 ```
 
-You could make any tech toy you like. Here are some other sprites you could use:
+आप अपनी पसंद का कोई भी तकनीकी आधुनिक खिलौना बना सकते हैं। यहाँ कुछ अन्य स्प्राइट्स हैं जिनका आप उपयोग कर सकते हैं:
 
-![robot, rocketship, motorcycle, electric guitar sprites](images/toys-sprites.png)
+![रोबोट, रॉकेटशिप, मोटरसाइकिल, इलेक्ट्रिक गिटार स्प्राइट्स](images/toys-sprites.png)

@@ -6,7 +6,7 @@ Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Ve
 
 ## Einleitung
 
-In diesem Projekt lernst du, wie du deine eigenen technische Spielzeuge programmierst!
+In diesem Projekt lernst du, wie du deine eigenen technischen Spielzeuge programmierst!
 
 ### Was du machen wirst
 
@@ -55,7 +55,7 @@ Das Start-Projekt findest du [hier](http://rpf.io/p/en/tech-toys-go){:target="_b
 title: Was du lernen wirst
 ---
 
-- Wie man Sprites animiert
+- Wie man Figuren animiert
 - Wie man auf Tastatureingaben reagiert
 - Verstehe, wie Broadcast-Nachrichten funktionieren
 

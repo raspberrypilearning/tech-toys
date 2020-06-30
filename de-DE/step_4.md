@@ -6,7 +6,7 @@ Lass uns deinen Helikopter programmieren, damit er startet, wenn der Laptop ange
 
 Beginnen wir damit, eine `Start`{:class="block3events"} Nachricht zu senden, wenn der Laptop angeklickt wird. Erstelle eine `neue Nachricht` namens `Start`.
 
-![Laptop Sprite](images/laptop-sprite.png)
+![Laptop Figur](images/laptop-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -20,9 +20,9 @@ Dieser Code sendet eine Nachricht zu allen anderen Sprites. Wenn du den Code tes
 
 --- task ---
 
-Klicke auf den Hubschrauber Sprite und füge einen `Wenn ich empfange` Block hinzu. Jeder Code, der an diesen Block angehängt wird, wird ausgeführt, sobald er die 'Start' Nachricht vom Laptop erhält.
+Klicke auf die Hubschrauber Figur und füge einen `Wenn ich empfange` Block hinzu. Jeder Code, der an diesen Block angehängt wird, wird ausgeführt, sobald er die 'Start' Nachricht vom Laptop erhält.
 
-![Hubschrauber Sprite](images/helicopter-sprite.png)
+![Hubschrauber Figur](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -42,7 +42,7 @@ Wenn du auf die Registerkarte 'Kostüme' des Hubschraubers klickst, wirst du fes
 
 Du kannst die beiden Kostüme benutzen, um den Propeller des Hubschraubers zu bewegen. Füge diesen Code hinzu, damit sich das Kostüm des Hubschraubers endlos ändert, sobald er die 'Start' Nachricht erhält.
 
-![Hubschrauber Sprite](images/helicopter-sprite.png)
+![Hubschrauber Figur](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,7 +55,7 @@ end
 
 --- task ---
 
-Teste deinen Code indem du auf den Laptop klickst. Bewegen sich die Propeller des Hubschraubers?
+Teste deinen Code, indem du auf den Laptop klickst. Bewegen sich die Propeller des Hubschraubers?
 
 ![Hubschrauberrotor in Bewegung](images/toys-helicopter-animation-test.png)
 

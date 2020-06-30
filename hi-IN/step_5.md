@@ -1,12 +1,12 @@
-## Flying your helicopter
+## हेलीकॉप्टर को उड़ाना
 
-Let's use the arrow keys to fly your helicopter.
+चलिएं, हेलीकाप्टर को उड़ाने के लिए ऊपर, निचे, दाएं, बाएं (तीर) वाले कुंजियों का इस्तमाल करे।
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+चलो अभी हेलीकॉप्टर को कोड करना शुरू करें, जब भी ऊपर तीर कुंजी (Up Arrow Key) दबाया जाए तब हेलीकॉप्टर तो ऊपर जाना चाहिए।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+अपने कोड का परीक्षण करें और आप देखेंगे कि जब भी ऊपर तीर कुंजी (Up Arrow Key) दबाई जाती है तब आपके हेलीकॉप्टर का `y`{:class="block3motion"} स्थान बदल जाता है।
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+अपने हेलिकॉप्टर को अधिक आसानी से ले जाने के लिए, ऊपर जाने के लिए आप इसके बजाय अपने हेलिकॉप्टर के `forever`{:class="block3motion"} लूप के अंदर कोड जोड़ सकते हैं।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+बाएं तीर कुंजी (Left Arrow Key) को दबाए जाने आप अपने हेलीकॉप्टर को बाईं ओर ले जाने के लिए कोड भी कर सकते हैं। इस बार आपको हेलीकॉप्टर के `x`{:class="block3motion"} स्थान को `-5` से बदलना होगा।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+अब अपने हेलिकॉप्टर को कोड करें ताकि जब निचे और दाए तीर के कुंजी दबाएं जाय तब हेलीकॉप्टर उस दिशा में जाए।
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+हेलीकॉप्टर को ऊपर और बाएं ओर उड़ाने के लिए आपके द्वारा उपयोग किए गए कोड को कॉपी करें, `keys`{:class="block3sensing"} (कुंजियों) को बदलते हुए `x`{:class="block3motion"} & `y`{:class="block3motion"} के मान को बदलिएं।
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+आपको इन ब्लॉक्स की आवश्यकता होगी:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

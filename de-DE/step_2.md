@@ -6,7 +6,7 @@ Lass uns eine Fliege programmieren, die nach dem Anklicken rotiert.
 
 Öffne das Scratch Start-Projekt.
 
-**Online**: Öffne das [Starter-Projekt](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: Öffne das [Start-Projekt](http://rpf.io/tech-toys-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
@@ -22,9 +22,9 @@ Im Start-Projekt solltest du 2 Figuren, einen Laptop und einen Helikopter, sehen
 
 --- task ---
 
-Klicke auf den Sprite mit der Fliege und füge folgenden Code hinzu:
+Klicke auf die Figur 'Fliege' und füge folgenden Code hinzu:
 
-![Fliegen Sprite](images/bowtie-sprite.png)
+![Fliegen Figur](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -60,7 +60,7 @@ Tipp: In Scratch kannst du auf einen Block klicken, um ihn direkt auszuführen. 
 
 Damit die Fliege eine komplette Drehung macht, muss die Summe der Zahlen in deinem Code 360 ergeben. Ändere deinen Code, damit die Fliege sich 10 Mal um `36` Grad dreht (36 x 10 = 360).
 
-![Fliegen Sprite](images/bowtie-sprite.png)
+![Fliegen Figur](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked

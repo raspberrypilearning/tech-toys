@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-Take a look at the [Snowball fight](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch project.
+Поглянь на проєкт Скретч [Гра в сніжки](https://projects.raspberrypi.org/en/projects/snowball-fight).
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+Використовуй вказівник мишки для вибору кута польоту сніжки і затримуй ліву клавішу мишки для задання сили.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![завершений проєкт](images/snow-final.png)
 
 --- /print-only ---

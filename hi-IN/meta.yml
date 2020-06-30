@@ -1,0 +1,19 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: आधुनिक खिलौने
+description: अपने खुद के खिलौने कोड करना सीखें!
+version: 4
+last_tested: 2019-04-10
+steps:
+  - title: परिचय
+  - title: घूमता हुए बो टाई
+  - title: 'चुनौती: रंग बदलने वाला चश्मा'
+    challenge: true
+  - title: हेलीकॉप्टर को चालू करना
+  - title: हेलीकॉप्टर को उड़ाना
+  - title: हेलिकॉप्टर को गोल गोल घुमाना
+  - title: 'चुनौती: अपना खुद का आधुनिक खिलौना बनाएं!'
+    challenge: true
+  - title: आगे क्या?

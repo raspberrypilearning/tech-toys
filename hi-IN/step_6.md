@@ -1,12 +1,12 @@
-## Loop-the-loop
+## हेलिकॉप्टर को गोल गोल घुमाना
 
-Let's code your helicopter to do a 360 degree spin.
+360 डिग्री घुमाने के लिए अपने हेलीकॉप्टर को कोड करें।
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+हम चाहते हैं कि जब भी स्पेस कुंजी को दबाया जाए तो हेलीकॉप्टर 360 डिग्री घूमें। याद रखें कि आपके कोड के अंक को 360 तक जोड़ना होगा।
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+स्पेस(Space) को दबाकर अपने कोड का परीक्षण करें, और आप देखेंगे कि आपका हेलीकाप्टर बहुत धीरे-धीरे घूमता है। ऐसा इसलिए है क्योंकि यह केवल 1 डिग्री 360 बार बदलता है।
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+अपने हेलिकॉप्टर को तेज घुमाने के लिए, अपने कोड में संख्याओं को बदलें ताकि यह कम बार अधिक डिग्री घूमें। इससे कोई फर्क नहीं पड़ता कि आप क्या संख्या चुनते हैं जब तक आपके अंक 360 तक जोड़ते हैं!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![हेलीकॉप्टर स्प्राइट](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+यदि आप चाहते हैं कि आपका हेलीकॉप्टर घूमने के साथ-साथ आगे भी बढ़े, तो बस `move`{:class="block3motion"} ब्लॉक को अपने कोड में जोड़ें।
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+अपने कोड का परीक्षण करने के लिए फिर से स्पेस दबाएँ। आपको अपना हेलीकॉप्टर एक सर्कल में घूमते हुए दिखाई देना चाहिए। क्या होगा यदि आप अपने `move`{:class="block3motion"} ब्लॉक के संख्या को बदलते हैं?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![हेलीकाप्टर लूपिंग](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

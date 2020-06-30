@@ -1,12 +1,12 @@
-## Powering up your helicopter
+## Запуск гелікоптера
 
-Let's code your helicopter to start up when your laptop is clicked.
+Давай запрограмуємо запуск гелікоптера, коли клацають на ноутбук.
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+Почнемо із оповіщення `старт`{:class="block3events"}, коли клацають на ноутбук. Тобі треба створити `нове повідомлення` з назвою `старт`.
 
-![laptop sprite](images/laptop-sprite.png)
+![спрайт ноутбука](images/laptop-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -14,15 +14,15 @@ start sound (computer beeps1 v)
 broadcast (start v)
 ```
 
-This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+Цей код відправляє оповіщення всім іншим спрайтам. Якщо ти його протестуєш, то побачиш, що поки що нічого не відбувається! Це тому, що ти ще не запрограмував (-ла) гелікоптер реагувати на це повідомлення.
 
 --- /task ---
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+Клацни на спрайт гелікоптера і додай блок `Коли я отримую`{:class="block3events"}. Будь-який код, прикріпленй до цього блоку, буде запущений, коли буде отримано повідомлення "старт" від ноутбука.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -32,17 +32,17 @@ when I receive [start v]
 
 --- task ---
 
-If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+Якщо ти клацнеш на вкладку "Образи" гелікоптера, то побачиш, що там є 2 образи із трохи різними пропелерами.
 
-![helicopter costumes](images/toys-helicopter-costumes.png)
+![образи гелікоптера](images/toys-helicopter-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+Ти можеш використовувати ці 2 образи, щоб анімувати гелікоптер. Додай наступний код, щоб гелікоптер змінював образ нескінченно після того, як отримає повідомлення "старт".
 
-![helicopter sprite](images/helicopter-sprite.png)
+![спрайт гелікоптера](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,8 +55,8 @@ end
 
 --- task ---
 
-Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+Протестуй свій код, клацнувши на спрайт ноутбука. Ти бачиш анімацію пропелера гелікоптера?
 
-![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+![рух лопатей гелікоптера](images/toys-helicopter-animation-test.png)
 
 --- /task ---

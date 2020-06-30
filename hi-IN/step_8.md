@@ -1,10 +1,10 @@
-## What next?
+## आगे क्या?
 
-Take a look at the [Snowball fight](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch project.
+आइये [बर्फ़ गोलों की लड़ाई](https://projects.raspberrypi.org/en/projects/snowball-fight) Scratch प्रोजेक्ट पर एक नज़र डालें।
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+बर्फ़गोले को एक कोण (angle) देने के लिए माउस पॉइंटर का उपयोग करें और बर्फ़गोले की शक्ति को चुनने के लिए माउस बटन को दबाए रखें।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![पूर्ण परियोजना](images/snow-final.png)
 
 --- /print-only ---

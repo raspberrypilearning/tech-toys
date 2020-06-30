@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## घूमता हुए बो टाय
 
-Let's code a bow tie that spins when clicked.
+आइए एक बो टाई को कोड करें जो क्लिक करने पर घूमता है।
 
 --- task ---
 
-Open the Scratch starter project.
+Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online**: open the [starter project](http://rpf.io/tech-toys-on){:target="_blank"}.
+**ऑनलाइन**: [स्टार्टर प्रोजेक्ट खोलें](http://rpf.io/tech-toys-on){:target="_blank"} |
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं |
 
-**Offline**: open the [starter project](http://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/tech-toys-go){:target="_blank"} को ऑफलाइन एडिटर में खोलियें।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+स्टार्टर प्रोजेक्ट में, आपको 2 चीज़े, एक लैपटॉप और एक हेलीकॉप्टर दिखाई देना चाहिए।
 
-![starter projects](images/toys-starter.png)
+![स्टार्टर प्रोजेक्ट](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+'Bow Tie' (बो टाय) स्प्राइट पर क्लिक करें और इस कोड को जोड़ें:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![बो टाय स्प्राइट](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+अपने कोड को चलाने के लिए बो टाई पर क्लिक करें। आपको दिखाई देना चाहिए कि आपका बो टाई 10 बार 15 डिग्री घूमता है, यानी कुल मिलाकर 150 डिग्री।
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![बो टाय 150 डिग्री घूमता हैं](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+`point in direction`{:class="block3motion"} ब्लॉक को खोजें और, _इसे खींचे बिना_ क्लिक करें, यह बो टाई को अपनी शुरुआती स्थिति में वापस सेट करता हैं।
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+टिप: Scratch में आप इसे ब्लॉक पर क्लिक कर चला सकते हैं। आपको इसे पहले स्क्रिप्ट क्षेत्र पर खींचने की भी आवश्यकता नहीं है!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+बो टाई को 1 पूर्ण स्पिन करने के लिए, आपके कोड में संख्याओं का जोड़ 360 डिग्री तक होना होगा। अपना कोड बदलें ताकि बो टाई `36` डिग्री 10 बार (36 x 10 = 360) बदलें।
 
-![bowtie sprite](images/bowtie-sprite.png)
+![बो टाय स्प्राइट](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+अपने कोड का फिर से परीक्षण करें। इस बार, आपके बो टाई को 1 पूर्ण 360 डिग्री घुमाना पड़ेगा ताकि वह जहां से आया है वहीं वापस रुक जाएं।
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+यदि आप चाहते हैं कि आपका बो टाय 4 बार पूर्ण घूमें, तो आपको `repeat`{:class="block3control"} ब्लॉक की संख्या को `10` से `40` में बदलनी होगी।
 
 ```blocks3
 when this sprite clicked

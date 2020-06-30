@@ -2,26 +2,26 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-title: Tech Toys
-description: Learn how to code your own tech toys!
+title: Технічні іграшки
+description: Дізнайся як запрограмувати свої власні технічні іграшки!
 version: 4
 last_tested: 2019-04-10
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Spinning Bow Tie
+    title: Краватка-метелик, що крутиться
   - 
-    title: 'Challenge: Colour-changing sunglasses'
+    title: 'Завдання: сонцезахисні окуляри, що змінюють свій колір'
     challenge: true
   - 
-    title: Powering up your helicopter
+    title: Запуск гелікоптера
   - 
-    title: Flying your helicopter
+    title: Польоти на гелікоптері
   - 
-    title: Loop-the-loop
+    title: Мертва петля
   - 
-    title: 'Challenge: Create your own tech toy!'
+    title: 'Завдання: створи власну технічну іграшку!'
     challenge: true
   - 
-    title: What next?
+    title: Що далі?

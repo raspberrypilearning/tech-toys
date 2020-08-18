@@ -1,12 +1,12 @@
-## Powering up your helicopter
+## Accendi l'elicottero
 
-Let's code your helicopter to start up when your laptop is clicked.
+Scriviamo il codice che avvii l'elicottero quando si clicca sul laptop.
 
 --- task ---
 
-Let's start by broadcasting a `start`{:class="block3events"} message when the laptop is clicked. You'll need to create a `new message` called `start`.
+Iniziamo trasmettendo un messaggio `start`{:class="block3events"} quando il computer portatile viene cliccato. Dovrai creare un `nuovo messaggio` chiamato `start`.
 
-![laptop sprite](images/laptop-sprite.png)
+![sprite laptop](images/laptop-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -14,15 +14,15 @@ start sound (computer beeps1 v)
 broadcast (start v)
 ```
 
-This code broadcasts a message to all other sprites. If you test this code, you'll see that nothing happens yet! This is because you've not coded the helicopter to respond to the message.
+Questo codice trasmette un messaggio a tutti gli altri sprite. Se provi questo codice, vedrai che non succede ancora nulla! Questo perché non hai scritto il codice che permette all'elicottero di rispondere al messaggio.
 
 --- /task ---
 
 --- task ---
 
-Click on your helicopter sprite and add a `When I receive`{:class="block3events"} block. Any code attached to this block will be run when it receives the 'start' message from the laptop.
+Fai clic sullo sprite dell'elicottero e aggiungi un blocco `quando ricevo` {:class="block3events"}. Qualsiasi codice agganciato a questo blocco verrà eseguito quando riceve il messaggio "start" dal laptop.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![elicottero sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -32,17 +32,17 @@ when I receive [start v]
 
 --- task ---
 
-If you click your helicopter's 'Costumes' tab, you'll notice that it has 2 costumes with slightly different propellers.
+Se fai clic sulla scheda "Costumi" del tuo elicottero, noterai che ha 2 costumi con eliche disegnante diversamente.
 
-![helicopter costumes](images/toys-helicopter-costumes.png)
+![costumi dell'elicottero](images/toys-helicopter-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can use the 2 costumes to animate the helicopter. Add this code, so that the helicopter changes costumes forever once it receives the 'start' message.
+Puoi usare i 2 costumi per animare l'elicottero. Aggiungi questo codice, in modo che l'elicottero cambi i costumi per sempre una volta che riceve il messaggio 'start'.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![elicottero sprite](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -55,8 +55,8 @@ end
 
 --- task ---
 
-Test your code by clicking your laptop sprite. Does your helicopter's propeller animate?
+Metti alla prova il tuo codice facendo clic sullo sprite del laptop. L'elica del tuo elicottero si anima?
 
-![helicopter rotas moving](images/toys-helicopter-animation-test.png)
+![elicotteri rotanti in movimento](images/toys-helicopter-animation-test.png)
 
 --- /task ---

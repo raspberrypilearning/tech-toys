@@ -1,7 +1,7 @@
-## Challenge: Colour-changing sunglasses
-Can you use the following blocks to make your sunglasses change colour when clicked?
+## Sfida: occhiali da sole che cambiano colore
+Puoi usare i seguenti blocchi per far cambiare colore agli occhiali quando li clicchi?
 
-![sunglasses sprite](images/sunglasses-sprite.png)
+![occhiali da sole sprite](images/sunglasses-sprite.png)
 
 ```blocks3
 repeat (10
@@ -12,4 +12,4 @@ change [colour v] effect by (25)
 when this sprite clicked
 ```
 
-Remember that you can change the numbers in the code blocks if you want to!
+Ricorda che puoi cambiare i numeri nei blocchi di codice se vuoi!

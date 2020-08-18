@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/tech-toys-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Introduzione
 
-In this project you'll learn how to code your own tech toys!
+In questo progetto imparerai come programmare i tuoi giocattoli tecnologici!
 
-### What you will make
+### Che cosa creerai
 
 --- no-print ---
 
@@ -17,61 +17,61 @@ In this project you'll learn how to code your own tech toys!
   <img src="images/toys-final.png">
 </div>
 
-+ Click the bow tie to see it spin
-+ Click the sunglasses to see them change colour
-+ Click the laptop to power up the helicopter
-+ Use the arrow keys to fly the helicopter
-+ Press the space bar to make the helicopter loop-the-loop
++ Clicca sul papillon per farlo girare
++ Clicca sugli occhiali da sole per vederli cambiare colore
++ Fai clic sul portatile per accendere l'elicottero
++ Usa i tasti freccia per far volare l'elicottero
++ Premi la barra per far eseguire un giro della morte all'elicottero
 
 --- /no-print ---
 
 --- print-only ---
 
-![complete project](images/toys-final.png)
+![progetto completo](images/toys-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Di cosa avrai bisogno
 ---
 
 ### Hardware
 
-+ A computer capable of running Scratch
++ Un computer in grado di eseguire Scratch
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} o [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Download
 
-The starter project can be found [here](http://rpf.io/p/en/tech-toys-go){:target="_blank"}.
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-- How to animate sprites
-- How to respond to keyboard input
-- Understand how broadcast works
+Il progetto iniziale può essere trovato [ qui ](http://rpf.io/p/en/tech-toys-go) {:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Cosa imparerai
+---
+
+- Come animare gli sprite
+- Come usare l'input da tastiera
+- Capire come funziona la trasmissione
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Informazioni aggiuntive per gli educatori
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/tech-toys/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/tech-toys-get){:target="_blank"}.
 
 --- /collapse ---

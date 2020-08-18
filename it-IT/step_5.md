@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Fai volare il tuo elicottero
 
-Let's use the arrow keys to fly your helicopter.
+Usa i tasti freccia per far volare l'elicottero.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Iniziamo scrivendo il codice che faccia salire il tuo elicottero quando viene premuta la freccia in alto.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Prova il tuo codice e vedrai che la posizione del tuo elicottero `y`{:class="block3motion"} cambia (su/giù) ogni volta che la freccia in alto viene premuta.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Per far muovere il tuo elicottero in modo più fluido, puoi in alternativa aggiungere del codice per spostarti verso l'alto all'interno del ciclo `per sempre` {:class="block3motion"}.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Puoi anche scrivere il codice per muovere il tuo elicottero a sinistra quando viene premuta la freccia sinistra. Questa volta dovrai cambiare la posizione `x dell'elicottero` {:class="block3motion"} di ` -5 `.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Ora scrivi il codice per muovere il tuo elicottero quando usi i tasti freccia giù e freccia destra.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Copia il codice che hai usato per far muovere l'elicottero verso l'alto e verso sinistra, modificando i `tasti` {:class="block3sensing"} usati e i valori `x`{:class="block3motion"} & ` y `{:class="block3motion"}
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Avrai bisogno di questi blocchi:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Il tuo codice dovrebbe assomigliare a questo:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

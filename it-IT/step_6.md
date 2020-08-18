@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Giro della morte
 
-Let's code your helicopter to do a 360 degree spin.
+Scriviamo il codice per far eseguire al tuo elicottero un giro a 360 gradi.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Vogliamo che l'elicottero esegua una rotazione di 360 gradi ogni volta che viene premuto il tasto spazio. Ricorda che i numeri nel tuo codice devono sommare 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Prova il tuo codice premendo lo spazio, e vedrai che il tuo elicottero gira molto lentamente. Questo perché gira 1 solo grado per 360 volte.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Per accelerare la rotazione dell'elicottero, modifica i numeri nel codice in modo che giri più gradi ma meno volte. Non importa quali numeri si scelgono, basta che la somma faccia 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![sprite elicottero](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Se vuoi che il tuo elicottero si sposti mentre ruota, aggiungi un blocco `fai`{:class="block3motion"} al tuo codice.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Premi di nuovo il tasto spazio per testare il tuo codice. Dovresti vedere il tuo elicottero muoversi lungo una circonferenza. Cosa succede se cambi il numero nel blocco `fai`{:class="block3motion"}?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![giro dell´elicottero](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

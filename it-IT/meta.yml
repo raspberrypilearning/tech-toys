@@ -1,0 +1,19 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Giocattoli tecnologici
+description: Impara a programmare i tuoi giocattoli tecnologici!
+version: 4
+last_tested: 2019-04-10
+steps:
+  - title: Introduzione
+  - title: Papillon rotante
+  - title: 'Sfida: occhiali da sole che cambiano colore'
+    challenge: true
+  - title: Accendi l'elicottero
+  - title: Fai volare il tuo elicottero
+  - title: Giro della morte
+  - title: 'Sfida: crea il tuo giocattolo tecnologico!'
+    challenge: true
+  - title: E adesso?

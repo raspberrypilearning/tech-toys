@@ -1,0 +1,19 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Технічні іграшки
+description: Дізнайся як запрограмувати свої власні технічні іграшки!
+version: 4
+last_tested: 2019-04-10
+steps:
+  - title: Вступ
+  - title: Краватка-метелик, що крутиться
+  - title: 'Завдання: сонцезахисні окуляри, що змінюють свій колір'
+    challenge: true
+  - title: Запуск гелікоптера
+  - title: Польоти на гелікоптері
+  - title: Мертва петля
+  - title: 'Завдання: створи власну технічну іграшку!'
+    challenge: true
+  - title: Що далі?

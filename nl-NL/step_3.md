@@ -1,5 +1,4 @@
 ## Uitdaging: van kleur veranderende zonnebril
-
 Kun je de volgende blokken gebruiken om je zonnebril van kleur te laten veranderen als je erop klikt?
 
 ![zonnebril sprite](images/sunglasses-sprite.png)

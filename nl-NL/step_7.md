@@ -1,5 +1,4 @@
 ## Uitdaging: maak je eigen tech speelgoed!
-
 Kunt je je eigen tech speelgoed maken?
 
 Je kunt de antenne laten bewegen wanneer er op wordt geklikt? Dit zijn de codeblokken die je nodig hebt:

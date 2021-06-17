@@ -72,6 +72,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/tech-toys-get)"{:target="_blank"} vinden.
+Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/tech-toys-get){:target="_blank"} vinden.
 
 --- /collapse ---

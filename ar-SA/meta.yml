@@ -7,13 +7,15 @@ description: تعلم كيفية برمجة لعبة تقنية خاصة بك!
 version: 4
 last_tested: 2019-04-10
 steps:
-  - title: المقدمة
-  - title: دوران ربطة العنق
-  - title: 'التحدي: نظارات الشمس متغيرة الألوان'
-    challenge: true
-  - title: تشغيل طائرتك العمودية
-  - title: تحليق طائرتك العمودية
-  - title: تكرار الحلقة
-  - title: 'التحدي: أنشئ لعبة تقنية خاصة بك!'
-    challenge: true
-  - title: ما التالي؟
+- title: المقدمة
+  completion: engaged
+- title: دوران ربطة العنق
+- title: 'التحدي: نظارات الشمس متغيرة الألوان'
+  challenge: true
+- title: تشغيل طائرتك العمودية
+- title: تحليق طائرتك العمودية
+  completion: internal
+- title: تكرار الحلقة
+- title: 'التحدي: أنشئ لعبة تقنية خاصة بك!'
+  challenge: true
+- title: ما التالي؟

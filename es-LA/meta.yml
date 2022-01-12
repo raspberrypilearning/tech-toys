@@ -3,17 +3,19 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 title: Juguetes Electrónicos
-description: '¡Aprende como codificar tus propios juguetes electrónicos!'
+description: "¡Aprende como codificar tus propios juguetes electrónicos!"
 version: 4
 last_tested: 2019-04-10
 steps:
-  - title: Introducción
-  - title: Girar el Corbatín
-  - title: 'Desafío: lentes de sol que cambian de color'
-    challenge: true
-  - title: Enciende tu helicóptero
-  - title: Haz volar tu helicóptero
-  - title: Gira el bucle
-  - title: 'Desafío: ¡crea tu propio juguete electrónico!'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Girar el Corbatín
+- title: 'Desafío: lentes de sol que cambian de color'
+  challenge: true
+- title: Enciende tu helicóptero
+- title: Haz volar tu helicóptero
+  completion: internal
+- title: Gira el bucle
+- title: 'Desafío: ¡crea tu propio juguete electrónico!'
+  challenge: true
+- title: "¿Qué sigue?"

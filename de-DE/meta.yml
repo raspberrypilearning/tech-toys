@@ -7,13 +7,15 @@ description: Lerne wie du dein eigenes Technik Spielzeug programmierst!
 version: 4
 last_tested: 2019-04-10
 steps:
-  - title: Einleitung
-  - title: Rotierende Fliege
-  - title: 'Herausforderung: Farbwechselnde Sonnenbrille'
-    challenge: true
-  - title: Starte deinen Hubschrauber
-  - title: Fliege deinen Hubschrauber
-  - title: Looping
-  - title: 'Herausforderung: Erstelle dein eigenes Technik-Spielzeug!'
-    challenge: true
-  - title: Wie geht''s weiter?
+- title: Einleitung
+  completion: engaged
+- title: Rotierende Fliege
+- title: 'Herausforderung: Farbwechselnde Sonnenbrille'
+  challenge: true
+- title: Starte deinen Hubschrauber
+- title: Fliege deinen Hubschrauber
+  completion: internal
+- title: Looping
+- title: 'Herausforderung: Erstelle dein eigenes Technik-Spielzeug!'
+  challenge: true
+- title: Wie geht''s weiter?

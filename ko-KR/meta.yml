@@ -7,13 +7,15 @@ description: 나만의 첨단기술 장난감을 코딩하는 방법을 배워�
 version: 4
 last_tested: 2019-04-10
 steps:
-  - title: 소개
-  - title: 나비 넥타이 회전시키기
-  - title: '도전과제: 색이 바뀌는 선글라스'
-    challenge: true
-  - title: 헬리콥터 시동 걸기
-  - title: 헬리콥터 날리기
-  - title: 곡예 비행
-  - title: '도전과제: 나만의 첨단기술 장난감 만들기!'
-    challenge: true
-  - title: 더 나아가기
+- title: 소개
+  completion: engaged
+- title: 나비 넥타이 회전시키기
+- title: '도전과제: 색이 바뀌는 선글라스'
+  challenge: true
+- title: 헬리콥터 시동 걸기
+- title: 헬리콥터 날리기
+  completion: internal
+- title: 곡예 비행
+- title: '도전과제: 나만의 첨단기술 장난감 만들기!'
+  challenge: true
+- title: 더 나아가기

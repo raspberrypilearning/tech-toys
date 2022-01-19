@@ -10,9 +10,9 @@
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**دون اتصال**: افتح مشروع البدء [افتح المشروع](http://rpf.io/p/ar-SA/tech-toys-go){:target="_blank"} في المحرر دون اتصال.
+**دون اتصال**: افتح مشروع البدء [افتح المشروع](https://rpf.io/p/ar-SA/tech-toys-go){:target="_blank"} في المحرر دون اتصال.
 
-اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 في المشروع المبدئي، يجب أن ترى كائنين حاسوبا محمولا وطائرة عامودية.
 

@@ -6,13 +6,13 @@ Scriviamo il codice per faccia girare il papillon quando viene cliccato.
 
 Apri il progetto iniziale di Scratch.
 
-**Online**: apri il [progetto iniziale](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: apri il [progetto iniziale](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline**: apri il [progetto iniziale ](http://rpf.io/p/it-IT/tech-toys-go){:target="_blank"} nell'editor offline.
+**Offline**: apri il [progetto iniziale ](https://rpf.io/p/it-IT/tech-toys-go){:target="_blank"} nell'editor offline.
 
-Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Nel progetto iniziale, dovresti vedere 2 personaggi, un laptop e un elicottero.
 

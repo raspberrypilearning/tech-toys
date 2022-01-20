@@ -10,9 +10,9 @@
 
 スクラッチアカウントを持っている場合は、**リミックス**をクリックしてコピーを作成できます。
 
-**オフライン**: オフラインエディターで[基本（きほん）のプロジェクト](http://rpf.io/p/ja-JP/tech-toys-go){:target="_blank"}を開きます。
+**オフライン**: オフラインエディターで[基本（きほん）のプロジェクト](https://rpf.io/p/ja-JP/tech-toys-go){:target="_blank"}を開きます。
 
-[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}からScratchオフラインエディターをダウンロードしてインストールできます。
+[rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}からScratchオフラインエディターをダウンロードしてインストールできます。
 
 基本（きほん）のプロジェクトには2人の人物とラップトップ、ヘリコプターがあります。
 

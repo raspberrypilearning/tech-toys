@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: はじめに
-  completion: engaged
 - title: ちょうネクタイを回す
 - title: チャレンジ：色が変わるサングラス
   challenge: true
 - title: ヘリコプターを起動する
+  completion:
+  - engaged
 - title: ヘリコプターを飛ばす
-  completion: internal
 - title: 宙返（ちゅうがえ）りする
+  completion:
+  - internal
 - title: チャレンジ：自分だけのハイテクおもちゃをつくろう！
   challenge: true
 - title: 次は何をしますか？

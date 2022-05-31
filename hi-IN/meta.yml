@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: परिचय
-  completion: engaged
 - title: घूमता हुए बो टाई
 - title: 'चुनौती: रंग बदलने वाला चश्मा'
   challenge: true
 - title: हेलीकॉप्टर को चालू करना
+  completion:
+  - engaged
 - title: हेलीकॉप्टर को उड़ाना
-  completion: internal
 - title: हेलिकॉप्टर को गोल गोल घुमाना
+  completion:
+  - internal
 - title: 'चुनौती: अपना खुद का आधुनिक खिलौना बनाएं!'
   challenge: true
 - title: आगे क्या?

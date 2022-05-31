@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: Introducción
-  completion: engaged
 - title: Girar el Corbatín
 - title: 'Desafío: lentes de sol que cambian de color'
   challenge: true
 - title: Enciende tu helicóptero
+  completion:
+  - engaged
 - title: Haz volar tu helicóptero
-  completion: internal
 - title: Gira el bucle
+  completion:
+  - internal
 - title: 'Desafío: ¡crea tu propio juguete electrónico!'
   challenge: true
 - title: "¿Qué sigue?"

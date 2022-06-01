@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: Introduction
-  completion: engaged
 - title: Nœud papillon tournant
 - title: 'Défi: lunettes de soleil à couleurs changeantes'
   challenge: true
 - title: Mettre ton hélicoptère sous tension
+  completion:
+  - engaged
 - title: Faire voler ton hélicoptère
-  completion: internal
 - title: Faire un looping
+  completion:
+  - internal
 - title: 'Défi: créer ton propre jouet technologique!'
   challenge: true
 - title: Et ensuite?

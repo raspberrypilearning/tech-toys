@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Draaiende vlinderdas
 - title: 'Uitdaging: van kleur veranderende zonnebril'
   challenge: true
 - title: Je helikopter inschakelen
+  completion:
+  - engaged
 - title: Met je helikopter vliegen
-  completion: internal
 - title: Loopings
+  completion:
+  - internal
 - title: 'Uitdaging: maak je eigen tech speelgoed!'
   challenge: true
 - title: Wat kun je verder nog doen?

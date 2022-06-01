@@ -8,14 +8,16 @@ version: 4
 last_tested: 2019-04-10
 steps:
 - title: Introduction
-  completion: engaged
 - title: Spinning Bow Tie
 - title: 'Challenge: Colour-changing sunglasses'
   challenge: true
 - title: Powering up your helicopter
+  completion:
+  - engaged
 - title: Flying your helicopter
-  completion: internal
 - title: Loop-the-loop
+  completion:
+  - internal
 - title: 'Challenge: Create your own tech toy!'
   challenge: true
 - title: What next?

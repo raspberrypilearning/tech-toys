@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Ενεργοποίηση του ελικοπτέρου σου
+    completion:
+      - engaged
   - 
     title: Πέταξε το ελικόπτερό σου
   - 
     title: Πλήρης περιστροφή
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: Δημιούργησε το δικό σου παιχνίδι τεχνολογίας!'
     challenge: true

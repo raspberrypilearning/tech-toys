@@ -6,13 +6,13 @@ Vamos a codificar un corbatín para que gire cuando se hace clic en él.
 
 Abre el proyecto inicial de Scratch.
 
-**En línea**: abre el [proyecto inicial](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto inicial](http://rpf.io/p/en/tech-toys-go){:target=_blank"} en el editor sin conexión.
+**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto inicial, deberías ver 2 personajes, un notebook y un helicóptero.
 

@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: ヘリコプターを起動する
+    completion:
+      - engaged
   - 
     title: ヘリコプターを飛ばす
   - 
     title: 宙返（ちゅうがえ）りする
+    completion:
+      - internal
   - 
     title: 'チャレンジ：自分だけのハイテクおもちゃをつくろう！'
     challenge: true

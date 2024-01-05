@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Enciende tu helicóptero
+    completion:
+      - engaged
   - 
     title: Haz volar tu helicóptero
   - 
     title: Gira en Bucle
+    completion:
+      - internal
   - 
     title: 'Desafío: ¡Crea tu propio juguete electrónico!'
     challenge: true

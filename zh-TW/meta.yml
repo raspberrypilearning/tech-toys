@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: 啟動你的直升機
+    completion:
+      - engaged
   - 
     title: 操控你的直升機
   - 
     title: 翻跟斗飛行
+    completion:
+      - internal
   - 
     title: '挑戰：創建專屬於你的高科技玩具！'
     challenge: true

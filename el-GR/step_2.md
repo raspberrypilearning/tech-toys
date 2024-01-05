@@ -6,13 +6,13 @@
 
 Άνοιξε το αρχικό έργο Scratch.
 
-**Σε σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/tech-toys-on){:target="_ blank"}.
+**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Χωρίς σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/tech-toys-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον Scratch επεξεργαστή εκτός σύνδεσης, μπορείς να τον βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Στο αρχικό έργο, θα πρέπει να δεις 2 χαρακτήρες, έναν φορητό υπολογιστή και ένα ελικόπτερο.
 

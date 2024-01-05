@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Powering up your helicopter
+    completion:
+      - engaged
   - 
     title: Flying your helicopter
   - 
     title: Loop-the-loop
+    completion:
+      - internal
   - 
     title: 'Challenge: Create your own tech toy!'
     challenge: true

@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: تشغيل طائرتك العمودية
+    completion:
+      - engaged
   - 
     title: تحليق طائرتك العمودية
   - 
     title: تكرار الحلقة
+    completion:
+      - internal
   - 
     title: 'التحدي: أنشئ لعبة تقنية خاصة بك!'
     challenge: true

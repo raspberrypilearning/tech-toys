@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Запуск гелікоптера
+    completion:
+      - engaged
   - 
     title: Польоти на гелікоптері
   - 
     title: Мертва петля
+    completion:
+      - internal
   - 
     title: 'Завдання: створи власну технічну іграшку!'
     challenge: true

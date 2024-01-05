@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Starte deinen Hubschrauber
+    completion:
+      - engaged
   - 
     title: Fliege deinen Hubschrauber
   - 
     title: Looping
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Erstelle dein eigenes Technikspielzeug!'
     challenge: true

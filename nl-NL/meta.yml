@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Je helikopter inschakelen
+    completion:
+      - engaged
   - 
     title: Met je helikopter vliegen
   - 
     title: Loopings
+    completion:
+      - internal
   - 
     title: 'Uitdaging: maak je eigen tech speelgoed!'
     challenge: true

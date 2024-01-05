@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Mettre ton hélicoptère sous tension
+    completion:
+      - engaged
   - 
     title: Faire voler ton hélicoptère
   - 
     title: Faire un looping
+    completion:
+      - internal
   - 
     title: 'Défi : créer ton propre jouet technologique !'
     challenge: true

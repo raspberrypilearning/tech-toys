@@ -6,13 +6,13 @@
 
 Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: [स्टार्टर प्रोजेक्ट खोलें](http://rpf.io/tech-toys-on){:target="_blank"} |
+**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं |
 
-**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/tech-toys-go){:target="_blank"} को ऑफलाइन एडिटर में खोलियें।
+**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
 
-यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 स्टार्टर प्रोजेक्ट में, आपको 2 चीज़े, एक लैपटॉप और एक हेलीकॉप्टर दिखाई देना चाहिए।
 

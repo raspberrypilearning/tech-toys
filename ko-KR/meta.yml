@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: 헬리콥터 시동 걸기
+    completion:
+      - engaged
   - 
     title: 헬리콥터 날리기
   - 
     title: 곡예 비행
+    completion:
+      - internal
   - 
     title: '도전과제: 나만의 첨단기술 장난감 만들기!'
     challenge: true

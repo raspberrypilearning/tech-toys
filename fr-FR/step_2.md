@@ -6,13 +6,13 @@ Codons un nœud papillon qui tourne quand on clique dessus.
 
 Ouvre le projet de démarrage Scratch.
 
-**En ligne** : ouvre le [projet de démarrage](http://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors-ligne**: ouvre le [projet de démarrage](http://rpf.io/p/en/tech-toys-go){:target="_blank"} dans l'éditeur hors-ligne.
+**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
 
-Si tu dois télécharger et installer l'éditeur hors-ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Dans le projet de démarrage, tu devrais voir 2 personnages, un ordinateur portable et un hélicoptère.
 

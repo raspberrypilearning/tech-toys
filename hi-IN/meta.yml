@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: हेलीकॉप्टर को चालू करना
+    completion:
+      - engaged
   - 
     title: हेलीकॉप्टर को उड़ाना
   - 
     title: हेलिकॉप्टर को गोल गोल घुमाना
+    completion:
+      - internal
   - 
     title: 'चुनौती: अपना खुद का आधुनिक खिलौना बनाएं!'
     challenge: true

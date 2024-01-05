@@ -16,10 +16,14 @@ steps:
     challenge: true
   - 
     title: Accendi l'elicottero
+    completion:
+      - engaged
   - 
     title: Fai volare il tuo elicottero
   - 
     title: Ripeti il ciclo
+    completion:
+      - internal
   - 
     title: 'Sfida: Crea il tuo giocattolo tecnologico!'
     challenge: true

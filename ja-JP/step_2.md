@@ -6,13 +6,13 @@
 
 基本（きほん）のScratchプロジェクトを開きます。
 
-**オンライン**: [基本（きほん）のプロジェクト](http://rpf.io/tech-toys-on){:target="_blank"}を開きます。
+**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
 
 スクラッチアカウントを持っている場合は、**リミックス**をクリックしてコピーを作成できます。
 
-**オフライン**: オフラインエディターで[基本（きほん）のプロジェクト](http://rpf.io/p/en/tech-toys-go){:target="_blank"}を開きます。
+**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
 
-[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}からScratchオフラインエディターをダウンロードしてインストールできます。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 基本（きほん）のプロジェクトには2人の人物とラップトップ、ヘリコプターがあります。
 

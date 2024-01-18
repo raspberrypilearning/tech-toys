@@ -1,12 +1,12 @@
-## Loop-the-loop
+## Zapętlić pętlę
 
-Let's code your helicopter to do a 360 degree spin.
+Zakodujmy helikopter, aby wykonał obrót o 360 stopni.
 
 --- task ---
 
-We want the helicopter to do a 360 degree spin whenever the space key is pressed. Remember that the numbers in your code need to add up to 360.
+Chcemy, aby helikopter wykonywał 360 stopni za każdym razem, gdy naciśnięty zostanie klawisz spacja. Pamiętaj, że liczby w kodzie muszą sumować się do 360.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -19,15 +19,15 @@ end
 
 --- task ---
 
-Test your code by pressing space, and you'll see that your helicopter spins very slowly. That's because it only turns 1 degree 360 times.
+Przetestuj swój kod, naciskając spację, a zobaczysz, że Twój helikopter obraca się bardzo wolno. To dlatego, że obraca się tylko o 1 stopień 360 razy.
 
 --- /task ---
 
 --- task ---
 
-To speed up your helicopter's spin, change the numbers in your code so that it turns more degrees fewer times. It doesn't matter what numbers you choose as long as they add up to 360!
+Aby przyspieszyć obrót helikoptera, zmień liczby w kodzie, aby obracał się o kilka wiecej stopni mniej razy. Nie ma znaczenia, jakie liczby wybierzesz, o ile sumują się one do 360!
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when [space v] key pressed
@@ -40,7 +40,7 @@ end
 
 --- task ---
 
-If you want your helicopter to move as well as spin, just add a `move`{:class="block3motion"} block to your code.
+Jeśli chcesz, aby Twój helikopter poruszał się tak samo, jak wirował, po prostu dodaj `przesuń`{:class="block3motion"} bloku do twojego kodu.
 
 ```blocks3
 when [space v] key pressed
@@ -54,9 +54,9 @@ end
 
 --- task ---
 
-Press space again to test your code. You should see your helicopter move in a circle. What happens if you change the number in your `move`{:class="block3motion"} block?
+Ponownie naciśnij spację, aby przetestować kod. Powinieneś zobaczyć jak twoj helikopter lata w okręgu. Co się stanie, jeśli zmienisz numer w swoim `ruchu`{:class="block3motion"} blok?
 
-![helicopter looping](images/toys-helicopter-360-move-test.png)
+![zapętlenie helikoptera](images/toys-helicopter-360-move-test.png)
 
 --- /task ---
 

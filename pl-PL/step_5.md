@@ -1,12 +1,12 @@
-## Flying your helicopter
+## Latanie twoim helikopterem
 
-Let's use the arrow keys to fly your helicopter.
+Użyjmy klawiszy strzałek, aby latać twoim helikopterem.
 
 --- task ---
 
-Let's start by coding your helicopter to move up when the up arrow is pressed.
+Zacznijmy od kodowania helikoptera, aby poruszał się w górę po naciśnięciu strzałki w górę.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when [up arrow v] key pressed
@@ -17,15 +17,15 @@ change y by (5)
 
 --- task ---
 
-Test your code and you'll see that your helicopter's `y`{:class="block3motion"} position (up/down) changes whenever the up arrow is pressed.
+Przetestuj swój kod, a zobaczysz, że pozycja `y`{:class="block3motion"} (góra/dół) Twojego helikoptera zmienia się po każdym naciśnięciu strzałki w górę.
 
 --- /task ---
 
 --- task ---
 
-To have your helicopter move more smoothly, you can instead add code to move upwards inside your helicopter's `forever`{:class="block3motion"} loop.
+Aby twój helikopter poruszał się płynniej, możesz zamiast tego dodać kod umożliwiający poruszanie się w górę wewnątrz pętli `zawsze`{:class="block3motion"} Twojego helikoptera.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -44,9 +44,9 @@ end
 
 --- task ---
 
-You can also code your helicopter to move to the left when the left arrow is pressed. This time you'll need to change the helicopter's `x`{:class="block3motion"} postition by `-5`.
+Możesz również zakodować swój helikopter, aby poruszać się w lewo po naciśnięciu strzałki w lewo. Tym razem musisz zmienić helikoptera `x`{:class="block3motion"} pozycji od `-5`.
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -65,21 +65,21 @@ end
 
 --- task ---
 
-Now code your helicopter to respond to the down and right arrow keys.
+Teraz zaprogramuj swój śmigłowiec, aby odpowiedzieć na klawisze strzałek w dół i w prawo.
 
 --- hints ---
 
 --- hint ---
 
-Copy the code you used to make the helicopter move up and left, changing the `keys`{:class="block3sensing"} used and `x`{:class="block3motion"} & `y`{:class="block3motion"} values
+Skopiuj kod użyty do uruchomienia helikoptera w górę i w lewo, zmieniając`klawisze`{:class="block3sensing"} użytku i `x`{:class="block3motion"} i `y`{:class=„block3motion”} wartości
 
 --- /hint ---
 
 --- hint ---
 
-You will need these blocks:
+Będziesz potrzebował tych bloków:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 if <> then
@@ -97,9 +97,9 @@ change x by (5)
 
 --- hint ---
 
-Your code should look like this:
+Twój kod powinien wyglądać tak:
 
-![helicopter sprite](images/helicopter-sprite.png)
+![ikona helikoptera](images/helicopter-sprite.png)
 
 ```blocks3
 when I receive [start v]

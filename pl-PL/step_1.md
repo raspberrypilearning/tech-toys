@@ -13,7 +13,7 @@ W tym projekcie nauczysz się kodować własne zabawki techniczne!
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/952618712/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/301514002/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/toys-final.png">
 </div>
 

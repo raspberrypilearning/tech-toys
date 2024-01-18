@@ -1,0 +1,23 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Zabawki technologiczne
+description: Dowiedz się, jak kodować własne zabawki technologiczne!
+version: 4
+last_tested: 2019-04-10
+steps:
+  - title: Wprowadzenie
+  - title: Muszka spinningowa
+  - title: 'Wyzwanie: zmieniające kolory okular przeciwsłonecznych'
+    challenge: true
+  - title: Uruchamianie twojego helikoptera
+    completion:
+      - engaged
+  - title: Latanie twoim helikopterem
+  - title: Zapętlić pętlę
+    completion:
+      - internal
+  - title: 'Wyzwanie: Stwórz własną zabawkę technologiczną!'
+    challenge: true
+  - title: Co dalej?

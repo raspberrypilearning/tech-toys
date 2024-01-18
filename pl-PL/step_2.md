@@ -1,30 +1,30 @@
-## Spinning Bow Tie
+## Muszka spinningowa
 
-Let's code a bow tie that spins when clicked.
+Zakodujmy muszkę, która będzie się kręcić po kliknięciu.
 
 --- task ---
 
-Open the Scratch starter project.
+Otwórz projekt startowy Scratch.
 
-**Online**: open the [starter project](https://rpf.io/tech-toys-on){:target="_blank"}.
+**Online**: otwórz [projekt początkowy](https://rpf.io/tech-toys-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/tech-toys-go){:target="_blank"} in the offline editor.
+**Offline**: otwórz projekt początkowy [ ](https://rpf.io/p/en/tech-toys-go) {:target="_ blank"} w edytorze offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go w [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see 2 characters, a laptop and a helicopter.
+W projekcie startowym powinieneś zobaczyć 2 postacie, laptopa i helikopter.
 
-![starter projects](images/toys-starter.png)
+![projekty początkowe](images/toys-starter.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the ‘Bow Tie’ sprite and add this code:
+Kliknij „Muszke” duszka i dodaj ten kod:
 
-![bowtie sprite](images/bowtie-sprite.png)
+![duszek muszki](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -38,29 +38,29 @@ end
 
 --- task ---
 
-Click the bow tie to run your code. You should see that your bow tie turns 15 degrees clockwise 10 times, turning 150 degrees in total.
+Kliknij muszkę, aby uruchomić kod. Powinieneś zobaczyć, że Twoja muszka obraca się o 15 stopni zgodnie z ruchem wskazówek zegara 10 razy, w sumie obracajac sie 150 stopni.
 
-![bowtie spinning 150 degreed](images/toys-bowtie-test.png)
+![muszka obracająca się o 150 stopni](images/toys-bowtie-test.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `point in direction`{:class="block3motion"} block and, _without dragging it_, click it to set the bow tie back to its starting position.
+Znajdź `ustaw kierynek na`{:class="block3motion"} bloku i _bez przeciągania go_, kliknij go, aby ustawić muszkę z powrotem w pozycji początkowej.
 
 ```blocks3
 point in direction (90 v)
 ```
 
-Tip: In Scratch you can click on a block to run it straight away. You don't even need to drag it onto the scripts area first!
+Wskazówka: w Scratch możesz kliknąć blok, aby go uruchomić od razu. Nawet nie musisz przeciągać go do obszaru skryptów najpierw!
 
 --- /task ---
 
 --- task ---
 
-To make the bow tie do 1 complete spin, the numbers in your code need to add up to 360 degrees. Change your code so that the bow tie turns `36` degrees 10 times (36 x 10 = 360).
+Aby muszka wykonała 1 pełny obrót, liczby w kodzie muszą sumować się do 360 stopni. Zmień swój kod, aby muszka obrócił się `36` stopni 10 razy (36 x 10 = 360).
 
-![bowtie sprite](images/bowtie-sprite.png)
+![muszka duszka](images/bowtie-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -73,11 +73,11 @@ end
 
 --- task ---
 
-Test your code again. This time, your bow tie should do 1 complete 360 degree spin and end up where it started.
+Przetestuj swój kod ponownie. Tym razem Twoja muszka powinna wykonać 1 pełny obrót o 360 stopni i skończyć w miejscu, w którym się rozpoczęła.
 
 --- /task ---
 
-If you want your bow tie to do 4 complete spins, you can change the number in the `repeat`{:class="block3control"} block from `10` to `40`.
+Jeśli chcesz, aby twoja muszka wykonała 4 pełne obroty, możesz zmienić liczbę w `powtórz`{:class="block3control"} bloku z `10` do `40`.
 
 ```blocks3
 when this sprite clicked
